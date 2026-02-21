@@ -19,5 +19,7 @@ data class GameEntity(
     val locationOutdoor: Boolean,
     val ageGroup: AgeGroup = AgeGroup.MITTEL,
     val gameType: GameType = GameType.KLETTERN,
-    val isFavorite: Boolean = false
+    val isFavorite: Boolean = false,
+    val durationMinutes: Int = 0,
+    val materialsKey: String? = null
 )

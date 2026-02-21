@@ -22,6 +22,7 @@ import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material.icons.outlined.FilterDrama
 import androidx.compose.material.icons.outlined.Home
+import androidx.compose.material.icons.outlined.Timer
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -268,6 +269,25 @@ fun GameDetailScreen(
                         }
                     }
 
+                    // Dauer
+                    if (g.durationMinutes > 0) {
+                        Spacer(modifier = Modifier.height(12.dp))
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Icon(
+                                imageVector = Icons.Outlined.Timer,
+                                contentDescription = null,
+                                tint = TextSecondary,
+                                modifier = Modifier.size(18.dp)
+                            )
+                            Spacer(modifier = Modifier.width(6.dp))
+                            Text(
+                                text = stringResource(R.string.duration_label, g.durationMinutes),
+                                color = TextSecondary,
+                                fontSize = 14.sp
+                            )
+                        }
+                    }
+
                     Spacer(modifier = Modifier.height(24.dp))
 
                     // Description
@@ -284,6 +304,34 @@ fun GameDetailScreen(
                         fontSize = 16.sp,
                         lineHeight = 24.sp
                     )
+
+                    // Materialien
+                    val materials = g.materialsKey?.let { viewModel.getStringByKey(it) }
+                    if (materials != null) {
+                        Spacer(modifier = Modifier.height(24.dp))
+                        Text(
+                            text = stringResource(R.string.materials),
+                            color = TextPrimary,
+                            fontSize = 18.sp,
+                            fontWeight = FontWeight.Bold
+                        )
+                        Spacer(modifier = Modifier.height(8.dp))
+                        Card(
+                            shape = RoundedCornerShape(16.dp),
+                            colors = CardDefaults.cardColors(
+                                containerColor = Color(0xFFF5F5F5)
+                            ),
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Text(
+                                text = materials,
+                                color = TextPrimary,
+                                fontSize = 15.sp,
+                                lineHeight = 24.sp,
+                                modifier = Modifier.padding(16.dp)
+                            )
+                        }
+                    }
 
                     // Rules
                     if (rules != null) {
