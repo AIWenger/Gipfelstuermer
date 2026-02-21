@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GipfelStürmer</string>
+    <string name="app_subtitle">100 Games for Little Climbers</string>
+    <string name="search_placeholder">Search game, category or keyword</string>
+    <string name="tab_all">All Games</string>
+    <string name="tab_indoor">Indoor</string>
+    <string name="tab_outdoor">Outdoor</string>
+    <string name="random_game">Pick a Random Game</string>
+    <string name="games_found">%d games found</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="back">Back</string>
+    <string name="favorite">Favorite</string>
+    <string name="rules">Rules</string>
+    <string name="description">Description</string>
+    <string name="location_indoor">Indoor</string>
+    <string name="location_outdoor">Outdoor</string>
+    <string name="timer_reset">Reset</string>
+    <string name="timer_start">Start</string>
+    <string name="timer_pause">Pause</string>
+
+    <!-- Age Groups -->
+    <string name="age_all">All</string>
+    <string name="age_klein">Young</string>
+    <string name="age_mittel">Middle</string>
+    <string name="age_gross">Older</string>
+    <string name="age_klein_label">Ages 4–6</string>
+    <string name="age_mittel_label">Ages 7–10</string>
+    <string name="age_gross_label">Ages 11+</string>
+    <string name="age_group">Age Group</string>
+
+    <!-- Game Types -->
+    <string name="type_all">All</string>
+    <string name="type_klettern">Climbing</string>
+    <string name="type_aufwaermen">Warm-Up</string>
+    <string name="type_kraft">Strength</string>
+    <string name="game_type">Game Type</string>
+
+    <!-- Game 1 -->
+    <string name="game_1_name">The Blind Passenger</string>
+    <string name="game_1_desc">A climber climbs blind (or blindfolded) while a partner gives directions.</string>
+    <string name="game_1_rules">One climber gets blindfolded. The partner stands below and gives instructions like "right hand up", "left foot to the left". The goal is to complete the route without seeing. Switch roles after each round.</string>
+
+    <!-- Game 2 -->
+    <string name="game_2_name">Hold Color Roulette</string>
+    <string name="game_2_desc">Only holds of a specific color may be used. First one to the top wins.</string>
+    <string name="game_2_rules">Choose a hold color. All climbers may only use holds of that color. Footholds are free to choose. Whoever completes the route first or gets the furthest wins the round.</string>
+
+    <!-- Game 3 -->
+    <string name="game_3_name">Climbing Memory</string>
+    <string name="game_3_desc">The first climber makes a move, the next repeats it and adds one more.</string>
+    <string name="game_3_rules">The first climber makes a move (e.g. right hand on a specific hold). The next climber repeats this move and adds their own. This continues until someone makes a mistake. Whoever remembers the sequence the longest wins.</string>
+
+    <!-- Game 4 -->
+    <string name="game_4_name">Spider</string>
+    <string name="game_4_desc">Traverse across the wall without touching the ground. Whoever gets the furthest wins.</string>
+    <string name="game_4_rules">Everyone starts at the same point and climbs sideways (traverses) across the wall. The ground must not be touched. Whoever falls off is out. Whoever gets the furthest without touching the ground wins.</string>
+
+    <!-- Game 5 -->
+    <string name="game_5_name">Squirrel</string>
+    <string name="game_5_desc">Collect small objects on the wall while climbing. Whoever collects the most wins.</string>
+    <string name="game_5_rules">Attach small objects (clothespins, stickers) to various holds on the wall. Climbers must collect as many as possible and store them in a pocket without falling off. Whoever collects the most wins.</string>
+
+    <!-- Game 6 -->
+    <string name="game_6_name">Climbing Twister</string>
+    <string name="game_6_desc">Like Twister, but on the climbing wall! Colors and limbs are called out.</string>
+    <string name="game_6_rules">A game leader calls combinations like "Right hand on red" or "Left foot on blue". Climbers must follow the instruction without falling off. Whoever falls or can\'t execute the instruction is eliminated.</string>
+
+    <!-- Game 7 -->
+    <string name="game_7_name">Climbing Cop</string>
+    <string name="game_7_desc">One climber is the "cop" and tries to catch the others on the wall.</string>
+    <string name="game_7_rules">One child is the cop and climbs after the others. Whoever is touched by the cop is caught and must come down. The last one on the wall wins and becomes the new cop. Only play in the traverse area (low height)!</string>
+
+    <!-- Game 8 -->
+    <string name="game_8_name">Lava Floor</string>
+    <string name="game_8_desc">The floor is lava! Climb from one point to another without touching the ground.</string>
+    <string name="game_8_rules">Mark start and finish points on the wall. The floor is "lava" and must not be touched. Climbers must make the entire way along the wall. Whoever touches the floor must start over.</string>
+
+    <!-- Game 9 -->
+    <string name="game_9_name">One-Armed Bandit</string>
+    <string name="game_9_desc">Climb an easy route with only one arm. Left or right is determined beforehand.</string>
+    <string name="game_9_rules">Choose an easy route. Determine which arm may be used before starting. The other arm stays behind the back. Both feet may be used freely. Whoever completes the route tries the other arm.</string>
+
+    <!-- Game 10 -->
+    <string name="game_10_name">Climbing Karaoke</string>
+    <string name="game_10_desc">Climb a route while singing a song. Whoever stops singing or falls off is out.</string>
+    <string name="game_10_rules">Each climber chooses a song and must sing it while climbing. Whoever stops singing or falls off is eliminated. Others judge climbing performance and singing. The best overall impression wins!</string>
+
+    <!-- Game 11 -->
+    <string name="game_11_name">Freeze!</string>
+    <string name="game_11_desc">Music plays – when it stops, everyone on the wall must freeze. Whoever moves is out.</string>
+    <string name="game_11_rules">Play music while the children climb on the wall. When the music stops, everyone must freeze immediately. Whoever moves or falls off is out. Music on again – keep climbing. Last climber on the wall wins.</string>
+
+    <!-- Game 12 -->
+    <string name="game_12_name">Climbing Relay</string>
+    <string name="game_12_desc">Two teams race in a relay climb. High-fiving on the ground counts as handover.</string>
+    <string name="game_12_rules">Form two equal-sized teams. One climber per team climbs a route up and back down, then high-fives the next. The team where all members finish first wins. If you fall, restart from the bottom.</string>
+
+    <!-- Game 13 -->
+    <string name="game_13_name">Rock Tic-Tac-Toe</string>
+    <string name="game_13_desc">Play Tic-Tac-Toe on the climbing wall with colored markers.</string>
+    <string name="game_13_rules">Draw a 3x3 grid with tape on the wall (in the traverse area). Two players climb alternately and place their colored markers (clothespins etc.) in a field. Whoever gets three in a row wins!</string>
+
+    <!-- Game 14 -->
+    <string name="game_14_name">Climbing Dice</string>
+    <string name="game_14_desc">Roll the dice and climb as many holds further as the dice shows.</string>
+    <string name="game_14_rules">Each climber rolls the dice on the ground and then climbs exactly as many holds further as the dice shows. Then roll again. Whoever reaches a certain route or height first wins. On a 6, you get a bonus move.</string>
+
+    <!-- Game 15 -->
+    <string name="game_15_name">Shadow Climber</string>
+    <string name="game_15_desc">Climb exactly the same moves as the person before you. Only mimicking is allowed!</string>
+    <string name="game_15_rules">The first climber slowly climbs a route. The second climber starts shortly after and must use exactly the same holds and footholds. If a different hold is used or a move is forgotten, you\'re out.</string>
+
+    <!-- Game 16 -->
+    <string name="game_16_name">Mountaineer Quiz</string>
+    <string name="game_16_desc">Answer quiz questions while hanging on the wall. Wrong answer = come down!</string>
+    <string name="game_16_rules">A game leader asks questions while the children hang on the wall. Whoever answers correctly may continue climbing. Whoever answers incorrectly must go one hold lower. Whoever reaches the top first or hangs the longest wins.</string>
+
+    <!-- Game 17 -->
+    <string name="game_17_name">Climbing Bingo</string>
+    <string name="game_17_desc">Everyone gets a bingo card with climbing tasks. First to complete a row calls Bingo!</string>
+    <string name="game_17_rules">Create bingo cards with tasks like "Climb with only 3 holds", "Touch the highest hold", "Traverse 2 meters". Children climb and check off completed tasks. Whoever fills a row first calls BINGO!</string>
+
+    <!-- Game 18 -->
+    <string name="game_18_name">Time Race</string>
+    <string name="game_18_desc">Who climbs the route fastest? The stopwatch decides!</string>
+    <string name="game_18_rules">Choose a route everyone knows. Each climber is timed individually with the stopwatch. The fastest time wins. Tip: Use the app\'s built-in timer! Fair play: Everyone starts from the same point.</string>
+
+    <!-- Game 19 -->
+    <string name="game_19_name">Nature Explorer</string>
+    <string name="game_19_desc">Climb outdoors on real rock and discover animals, plants and special stones.</string>
+    <string name="game_19_rules">When climbing on real rock: Create a list of things to find beforehand (specific stone, moss, beetle, etc.). During climbing, discoveries are collected. Whoever finds the most items from the list wins.</string>
+
+    <!-- Game 20 -->
+    <string name="game_20_name">Climbing Robot</string>
+    <string name="game_20_desc">Your partner is the robot – they only climb when you give the right command.</string>
+    <string name="game_20_rules">One child is the "programmer", the other the "robot". The robot may only move according to commands: "Right hand up 30cm", "Left foot right 20cm". The robot executes exactly what is said. Goal: Complete the route only through commands!</string>
+
+    <!-- Game 21 -->
+    <string name="game_21_name">Climbing Alphabet</string>
+    <string name="game_21_desc">Find holds that look like letters and spell your name.</string>
+    <string name="game_21_rules">Look at the holds on the wall. Find holds that look like letters. Everyone tries to spell their name by touching the corresponding holds. Whoever spells their name completely first wins.</string>
+
+    <!-- Game 22 -->
+    <string name="game_22_name">Hold Detective</string>
+    <string name="game_22_desc">A hold on the wall is secretly marked. Find it while climbing!</string>
+    <string name="game_22_rules">A game leader secretly marks a hold (e.g. with a small sticker on the underside). Climbers must find the marked hold by examining holds from all sides while climbing. Whoever finds the sticker first wins.</string>
+
+    <!-- Game 23 -->
+    <string name="game_23_name">Climbing Yoga</string>
+    <string name="game_23_desc">Hold various yoga poses on the wall. Whoever holds out the longest wins.</string>
+    <string name="game_23_rules">Children climb to a comfortable position on the wall. The game leader calls poses: "Let go of one leg", "Hold with only one hand", "Back to the wall". Each pose must be held for 10 seconds. Whoever falls off is eliminated.</string>
+
+    <!-- Game 24 -->
+    <string name="game_24_name">Summit Messenger</string>
+    <string name="game_24_desc">Deliver a message by climbing from one point to another – without losing it!</string>
+    <string name="game_24_rules">Each child gets a small note (the "message") that must be transported in their mouth or pocket. Climb from start to finish without losing the message. Whoever loses the message must start over.</string>
+
+    <!-- Game 25 -->
+    <string name="game_25_name">Climbing Domino</string>
+    <string name="game_25_desc">The next climber must start at the hold where the previous one stopped.</string>
+    <string name="game_25_rules">The first climber climbs freely and stops at any hold. The next climber must start at exactly that hold and continue climbing from there until they stop. This continues. Whoever can\'t connect is eliminated.</string>
+
+    <!-- Game 26 -->
+    <string name="game_26_name">Silent Climber</string>
+    <string name="game_26_desc">Climb as quietly as possible. Every noise when grabbing or stepping gives a point deduction.</string>
+    <string name="game_26_rules">Children climb a route and try to be as quiet as possible. An observer counts every audible noise (clicking, scratching, groaning). Whoever makes the fewest noises wins. Promotes clean climbing technique!</string>
+
+    <!-- Game 27 -->
+    <string name="game_27_name">Climbing Simon Says</string>
+    <string name="game_27_desc">"Simon says: Right hand on yellow!" Only when Simon says it may you move.</string>
+    <string name="game_27_rules">Like "Simon Says", but on the wall. The game leader gives instructions. Only with "Simon says..." may the instruction be followed. Whoever moves without "Simon says" must come down. Last climber on the wall wins.</string>
+
+    <!-- Game 28 -->
+    <string name="game_28_name">Climbing Obstacle Course</string>
+    <string name="game_28_desc">Build a course with various stations: climbing, balancing, jumping.</string>
+    <string name="game_28_rules">Build a course with stations: 1. Traverse on the wall, 2. Balance on a bench, 3. Climb through a hoop, 4. Route up and down. Each child is timed with the stopwatch. The fastest overall time wins.</string>
+
+    <!-- Game 29 -->
+    <string name="game_29_name">Hold Counter</string>
+    <string name="game_29_desc">Complete the route with as few holds as possible. Every hold is counted.</string>
+    <string name="game_29_rules">Choose a route. Each climber tries to complete it with as few holds as possible. An observer counts every hold used. Whoever needs the fewest holds wins. Promotes efficiency and planning!</string>
+
+    <!-- Game 30 -->
+    <string name="game_30_name">Summit Stormer Challenge</string>
+    <string name="game_30_desc">The ultimate challenge: Complete as many routes as possible in a set time.</string>
+    <string name="game_30_rules">Set the timer to 10 minutes. Each climber tries to climb as many different routes as possible in that time. Each completed route earns a point. Difficult routes earn bonus points. Whoever has the most points is the Summit Stormer!</string>
+
+    <!-- Game 31 -->
+    <string name="game_31_name">Frog Jump</string>
+    <string name="game_31_desc">Jump like a frog from hold to hold on the wall. Who gets the highest?</string>
+    <string name="game_31_rules">Start on low holds. Each child jumps with both feet from hold to hold upward. Whoever misses a hold or falls off starts over. Whoever gets the highest wins. Only play at a safe jumping height!</string>
+
+    <!-- Game 32 -->
+    <string name="game_32_name">Crawling Beetle</string>
+    <string name="game_32_desc">Climb on all fours – hands and feet flat – like a beetle along the wall.</string>
+    <string name="game_32_rules">Imagine you are beetles! Climb with flat hands and feet (don\'t grip holds, just press flat) as far as possible along the wall. Whoever gets the furthest without falling off wins.</string>
+
+    <!-- Game 33 -->
+    <string name="game_33_name">Monkey Swing</string>
+    <string name="game_33_desc">Traverse the wall using only your hands – feet stay in the air. How far can you go?</string>
+    <string name="game_33_rules">Start at the left edge of the traverse wall. Only hands may touch holds – feet hang free. Swing from hold to hold. Whoever gets the furthest without touching the ground is the best monkey!</string>
+
+    <!-- Game 34 -->
+    <string name="game_34_name">Shooting Star</string>
+    <string name="game_34_desc">Touch 5 different colored holds as fast as possible. The clock is ticking!</string>
+    <string name="game_34_rules">Choose 5 holds in different colors and mark them with tape. Each child starts on the ground, climbs and touches all 5 holds in any order. Whoever touches all 5 fastest has made a shooting star!</string>
+
+    <!-- Game 35 -->
+    <string name="game_35_name">Rainbow Climber</string>
+    <string name="game_35_desc">Climb holds in rainbow color order: Red, Orange, Yellow, Green, Blue!</string>
+    <string name="game_35_rules">Each child climbs the wall touching holds in order: Red – Orange – Yellow – Green – Blue – Purple. If a color is skipped, start over. Whoever completes the full rainbow wins!</string>
+
+    <!-- Game 36 -->
+    <string name="game_36_name">Soap Bubble Route</string>
+    <string name="game_36_desc">Climb as softly and quietly as if you were keeping soap bubbles from popping.</string>
+    <string name="game_36_rules">An observer blows real soap bubbles next to the climbing wall. Children climb an easy route trying to keep bubbles alive through calm, gentle movements. Whoever keeps the most bubbles alive wins!</string>
+
+    <!-- Game 37 -->
+    <string name="game_37_name">Animal Paws</string>
+    <string name="game_37_desc">Imitate animal movements while climbing. Bear, cat, spider – what are you?</string>
+    <string name="game_37_rules">The leader calls an animal. Children climb like that animal: Bear (slow, heavy), Cat (sneaky, elegant), Spider (sideways, fast), Frog (jumping). The leader judges who best portrays the animal.</string>
+
+    <!-- Game 38 -->
+    <string name="game_38_name">Color Worm</string>
+    <string name="game_38_desc">Always alternate: Red – Blue – Yellow. Break the sequence and you\'re out!</string>
+    <string name="game_38_rules">Each child climbs and must use holds in the sequence Red – Blue – Yellow – Red – Blue – Yellow. An observer checks. Whoever grabs a wrong color must start over. First to reach the top wins.</string>
+
+    <!-- Game 39 -->
+    <string name="game_39_name">Dancing Mountains</string>
+    <string name="game_39_desc">Dance to music and when it stops, pose as a mountain peak or a climber!</string>
+    <string name="game_39_rules">Music plays, everyone dances freely. When the music stops, the leader calls "Mountain" (everyone reaches arms up sharply) or "Climber" (everyone mimics climbing grips). Whoever is too slow is out.</string>
+
+    <!-- Game 40 -->
+    <string name="game_40_name">Jumping Jack Race</string>
+    <string name="game_40_desc">Who does the most jumping jacks in 30 seconds? Go!</string>
+    <string name="game_40_rules">Everyone starts at the same time. Each person does as many jumping jacks as possible in 30 seconds. A partner counts. After time, compare results. Whoever has the most wins the round. Play multiple rounds!</string>
+
+    <!-- Game 41 -->
+    <string name="game_41_name">Penguin Walk</string>
+    <string name="game_41_desc">Walk with arms pressed tightly against your body to the goal and back – like a penguin!</string>
+    <string name="game_41_rules">Everyone presses arms tight against their body (elbows at side, hands forward). Walk a course: slalom through cones, over a line, back to start. Fastest wins. Arms coming loose = penalty (5 jumping jacks).</string>
+
+    <!-- Game 42 -->
+    <string name="game_42_name">Hop Fun</string>
+    <string name="game_42_desc">Hop on one leg through different fields. Fall and switch legs!</string>
+    <string name="game_42_rules">Draw or place fields on the ground (tape or hoops). Everyone hops on one leg through the fields. Whoever lands on both feet or hops out must continue on the other leg. First to complete the course wins.</string>
+
+    <!-- Game 43 -->
+    <string name="game_43_name">Rocket Launch</string>
+    <string name="game_43_desc">Lie flat on the ground, count down from 5 and shoot up like a rocket!</string>
+    <string name="game_43_rules">Everyone lies flat on the ground. Together count backward: 5 – 4 – 3 – 2 – 1 – Ignition! At "Ignition" everyone jumps up simultaneously and stretches arms up. Then immediately do 10 squats. Whoever stands up fastest wins!</string>
+
+    <!-- Game 44 -->
+    <string name="game_44_name">Spider Walk</string>
+    <string name="game_44_desc">Walk on hands and feet, belly facing up. Can you be as fast as a spider?</string>
+    <string name="game_44_rules">Everyone gets into "crab position": hands and feet on the ground, belly facing up. Navigate a course in this position. Fastest wins. Variation: Balance a small ball on your belly while doing it!</string>
+
+    <!-- Game 45 -->
+    <string name="game_45_name">Magic Mirror</string>
+    <string name="game_45_desc">Two children face each other and mirror each other\'s movements – perfectly synchronized!</string>
+    <string name="game_45_rules">Two children face each other. Child A makes slow movements (raise arms, squats, turns). Child B tries to mirror exactly the same movements. After 1 minute, switch. The others judge who was most synchronized.</string>
+
+    <!-- Game 46 -->
+    <string name="game_46_name">Little Lion</string>
+    <string name="game_46_desc">Knee push-ups – as many as possible! Roar like a lion with every rep!</string>
+    <string name="game_46_rules">Everyone does knee push-ups and roars softly with each rep. Whoever completes 5 can mime a lion mane. Whoever does 10 is a big lion. Whoever does more than 15 is the king of climbing beasts! Animal sounds for motivation allowed!</string>
+
+    <!-- Game 47 -->
+    <string name="game_47_name">Bridge Builder</string>
+    <string name="game_47_desc">Do a bridge pose and hold it as long as possible. Who builds the most stable bridge?</string>
+    <string name="game_47_rules">Everyone gets into bridge position (back and hips raised, hands and feet on the ground). Whoever holds the longest wins. Variation: The leader places a light object on the bridge – whoever drops it is out.</string>
+
+    <!-- Game 48 -->
+    <string name="game_48_name">Wall Sit</string>
+    <string name="game_48_desc">Sit without a chair with your back against the wall and hold on. Who holds the longest?</string>
+    <string name="game_48_rules">Everyone leans back against the wall, knees at 90 degrees, as if sitting on an invisible chair. Time is measured. Whoever holds the position longest wins. Hands may not touch the wall. Giving up = elimination.</string>
+
+    <!-- Game 49 -->
+    <string name="game_49_name">Log Roll</string>
+    <string name="game_49_desc">Lie on the mat, stretch your body and roll like a log. Who stays straight?</string>
+    <string name="game_49_rules">Everyone lies on the ground, arms stretched above head, body like a plank. Now roll sideways – without bending arms or legs! Whoever stays straightest and rolls the furthest wins. Multiple rounds for time.</string>
+
+    <!-- Game 50 -->
+    <string name="game_50_name">Frog Power Jump</string>
+    <string name="game_50_desc">From a deep squat, jump as far as possible and land softly like a frog!</string>
+    <string name="game_50_rules">Everyone stands at a line. From deep squat (fingertips touch the ground) jump as far forward as possible. Mark the landing spot. Whoever jumps the furthest wins. 3 attempts, the furthest counts. Soft landing = bonus!</string>
+
+    <!-- Game 51 -->
+    <string name="game_51_name">Moonboard Starter</string>
+    <string name="game_51_desc">Climb a set boulder route with coordinate instructions from your partner.</string>
+    <string name="game_51_rules">Partner calls coordinates (e.g. "Row 3, Hold 2"). The climber must find and use exactly that hold. Then the partner calls the next. 5 moves total. Whoever hits all 5 correct holds wins. Then switch!</string>
+
+    <!-- Game 52 -->
+    <string name="game_52_name">Campus Traverse</string>
+    <string name="game_52_desc">Traverse the wall using only your hands on slopers – feet stay in the air!</string>
+    <string name="game_52_rules">Find a traverse with small ledges. Both hands on ledges, feet hanging free. Traverse as far as possible sideways. Whoever falls off is measured for distance. Feet may not touch the wall. Whoever gets the furthest wins.</string>
+
+    <!-- Game 53 -->
+    <string name="game_53_name">Double Hold Challenge</string>
+    <string name="game_53_desc">Each hand must touch two holds simultaneously. Can you complete the route?</string>
+    <string name="game_53_rules">Find holds close enough to touch two with one hand. Climb a route where each hand must always touch two holds. Whoever completes the route has passed the challenge. Variation: Feet must also touch two footholds each!</string>
+
+    <!-- Game 54 -->
+    <string name="game_54_name">Reverse Climbing</string>
+    <string name="game_54_desc">Climb a route from top to bottom – backwards! The top is your start.</string>
+    <string name="game_54_rules">Choose a route everyone knows. Start at the top (with belay) and climb the route in reverse order downward. Every hold must be used in the reversed sequence. Whoever completes the route completely in reverse has passed the challenge!</string>
+
+    <!-- Game 55 -->
+    <string name="game_55_name">Blind Traverse</string>
+    <string name="game_55_desc">Traverse blindfolded – your partner gives instructions!</string>
+    <string name="game_55_rules">One climber is blindfolded and climbs in the traverse area (low height, max 1 meter). The partner stands alongside and gives precise instructions: "Right hand 20 cm to the right", "Left foot up". After 5 moves, switch. Safety first!</string>
+
+    <!-- Game 56 -->
+    <string name="game_56_name">Non-Stop Ascent</string>
+    <string name="game_56_desc">Climb a route without pausing even a second. No hanging, no resting!</string>
+    <string name="game_56_rules">Choose a medium route. Each climber must complete the route from bottom to top without any pause. The moment you stop (even briefly), the attempt is invalid. Movement must flow constantly. Whoever completes the route fluidly wins!</string>
+
+    <!-- Game 57 -->
+    <string name="game_57_name">Climbing Bus</string>
+    <string name="game_57_desc">Climb one behind the other – exactly one hold-length gap to the person in front!</string>
+    <string name="game_57_rules">3–4 children climb simultaneously one behind the other. Each child must keep exactly one hold gap to the next – not too close, not too far. Whoever loses the gap must stop and wait. First to the top becomes the new bus driver!</string>
+
+    <!-- Game 58 -->
+    <string name="game_58_name">Spiderman Style</string>
+    <string name="game_58_desc">Climb as close to the wall as possible – no arched back, body flat like Spiderman!</string>
+    <string name="game_58_rules">An observer checks how close the climber stays to the wall. A stick is held horizontally behind the climber\'s back – whoever touches the stick has too much arch. Whoever completes a route without touching the stick climbs like Spiderman!</string>
+
+    <!-- Game 59 -->
+    <string name="game_59_name">Safe Jump</string>
+    <string name="game_59_desc">Learn to jump from various heights in a controlled way and land softly.</string>
+    <string name="game_59_rules">Jump from increasing heights: first 50 cm, then 1 m, then 1.5 m. At landing: feet shoulder-width, slight bend in knees, hands forward. Whoever lands softest and shows the most pronounced knee bend gets the most points from the observer.</string>
+
+    <!-- Game 60 -->
+    <string name="game_60_name">Rhythm Climbing</string>
+    <string name="game_60_desc">Climb in time to a metronome or clapping. Every beat = one move!</string>
+    <string name="game_60_rules">The leader claps or sets a metronome (60 bpm). At each beat, the climber must make one move – not faster, not slower. Whoever loses the rhythm (too fast or too slow) is out. Increase the tempo after each round!</string>
+
+    <!-- Game 61 -->
+    <string name="game_61_name">Volcano Eruption</string>
+    <string name="game_61_desc">Everyone jumps up simultaneously and lands in volcano pose – arms explode outward!</string>
+    <string name="game_61_rules">Everyone stands in a circle. The leader counts: "3 – 2 – 1 – Eruption!" Everyone jumps simultaneously as high as possible and lands with arms spread wide (the exploding volcano). Whoever jumps highest and has the most dramatic pose wins!</string>
+
+    <!-- Game 62 -->
+    <string name="game_62_name">Tag and Climb</string>
+    <string name="game_62_desc">Classic tag – but you\'re safe while climbing! Must touch at least 3 holds.</string>
+    <string name="game_62_rules">One child is "it" and tries to tag the others. Whoever is climbing on the wall (touching at least 3 holds) is temporarily safe and cannot be tagged. Once they come down, they can be tagged. Whoever is tagged becomes the new "it".</string>
+
+    <!-- Game 63 -->
+    <string name="game_63_name">Number Sprint</string>
+    <string name="game_63_desc">The leader calls a number – everyone sprints to the field with that number!</string>
+    <string name="game_63_rules">Place numbered fields around the room (1–10). The leader calls a number, everyone sprints immediately to that field. Last to arrive does 5 jumping jacks. Then immediately the next number. Variation: Call two numbers in a row for more chaos!</string>
+
+    <!-- Game 64 -->
+    <string name="game_64_name">Clap Circle</string>
+    <string name="game_64_desc">Clap and stomp in different rhythms in a circle – lose the beat and you\'re out!</string>
+    <string name="game_64_rules">Everyone stands in a circle. The leader sets a rhythm (e.g. 2× clap, 1× stomp). Everyone joins in. Whoever loses the rhythm or is too late is out or does an extra task. The rhythm gets more complex each round.</string>
+
+    <!-- Game 65 -->
+    <string name="game_65_name">Energy Ball</string>
+    <string name="game_65_desc">Throw an invisible energy ball! The receiver must react immediately and keep playing.</string>
+    <string name="game_65_rules">Everyone stands in a circle. Person A forms an imaginary ball and "throws" it with a sound to Person B. B must react immediately, "catch" the ball and continue playing. Whoever reacts too slowly or drops the ball is out. Speed up!</string>
+
+    <!-- Game 66 -->
+    <string name="game_66_name">Juggler Warm-Up</string>
+    <string name="game_66_desc">Throwing exercises with balls in pairs: easy first, then harder. Who drops none?</string>
+    <string name="game_66_rules">Pairs stand facing each other. Round 1: simple throw, Round 2: hop before catching, Round 3: spin before catching, Round 4: briefly close eyes when throwing. Whoever drops the ball starts from Round 1. Winner is the pair that gets the furthest.</string>
+
+    <!-- Game 67 -->
+    <string name="game_67_name">Moon Stations</string>
+    <string name="game_67_desc">Various warm-up exercises at stations – as if you had moon gravity!</string>
+    <string name="game_67_rules">Set up 4 stations: 1. Slow-motion running (as if everything is slowed down), 2. Super long jump (as if on the moon), 3. Weightless jumping jacks, 4. Moon push-ups. 45 seconds per station. Catch breath, then repeat from the start!</string>
+
+    <!-- Game 68 -->
+    <string name="game_68_name">Pull-Up Ladder</string>
+    <string name="game_68_desc">1 pull-up, then 2, then 3... how high can you climb the ladder?</string>
+    <string name="game_68_rules">Each climber first does 1 pull-up, then 2, then 3 etc. 30 seconds rest between sets. Whoever can\'t complete a set is out. The highest number of successful pull-ups in a set wins. Note the result – compare next session. Light assistance is allowed.</string>
+
+    <!-- Game 69 -->
+    <string name="game_69_name">Dead Hang</string>
+    <string name="game_69_desc">Hang from a hold or bar – who holds the longest?</string>
+    <string name="game_69_rules">Everyone hangs simultaneously from a bar or hold. Time is measured. Whoever lets go first is out. Allowed: active hang (slightly bent arms) or passive hang (straight arms). Last one hanging wins. Record time for next round!</string>
+
+    <!-- Game 70 -->
+    <string name="game_70_name">Plank Variations</string>
+    <string name="game_70_desc">Hold various plank positions: normal, side, one arm. Who holds the longest?</string>
+    <string name="game_70_rules">Round 1: normal plank (60 sec), Round 2: side plank left (30 sec), Round 3: side plank right (30 sec), Round 4: plank with alternating leg raises. Whoever completes all rounds wins. Hips may not sag, body stays straight!</string>
+
+    <!-- Game 71 -->
+    <string name="game_71_name">Push-Up Variations</string>
+    <string name="game_71_desc">Classic, diamond, wide – three push-up variations of 5 reps each. Can you do them all?</string>
+    <string name="game_71_rules">Round 1: 5 classic push-ups, Round 2: 5 diamond push-ups (hands form diamond), Round 3: 5 wide push-ups (hands wide apart). 20 sec rest between rounds. Whoever completes all 15 reps with correct technique wins!</string>
+
+    <!-- Game 72 -->
+    <string name="game_72_name">Dead Bug</string>
+    <string name="game_72_desc">On your back, slowly lower arms and legs – keep your core tight!</string>
+    <string name="game_72_rules">Everyone lies on their back, arms straight up, legs at 90 degrees. Slowly lower one arm and the opposite leg toward the ground without touching it. Back stays flat! Whoever does 10 clean reps is the Dead Bug Champion!</string>
+
+    <!-- Game 73 -->
+    <string name="game_73_name">Wall Walk</string>
+    <string name="game_73_desc">From push-up position, walk your feet up the wall – as high as possible!</string>
+    <string name="game_73_rules">Start in push-up position with feet against the wall. Walk feet up the wall while walking hands toward the wall simultaneously. How close can you get to vertical? Whoever gets closest to the vertical position wins. Mind your safety!</string>
+
+    <!-- Game 74 -->
+    <string name="game_74_name">Onsight Challenge</string>
+    <string name="game_74_desc">Climb an unknown route without reading it first. Can you do it first try?</string>
+    <string name="game_74_rules">The leader prepares a route no one knows. No reading, no watching! Each climber attempts the route cold – on the first try. Whoever succeeds has done it "onsight". Points: Onsight = 3, second attempt = 2, third = 1. Most points wins!</string>
+
+    <!-- Game 75 -->
+    <string name="game_75_name">Flash Attempt</string>
+    <string name="game_75_desc">Watch someone climb once – then do the route on your first try!</string>
+    <string name="game_75_rules">Person A climbs a route (may fail). Person B watches carefully and may ask questions. Then Person B attempts the route – on their first try. If successful, it\'s a "flash". Whoever gets the most flashes in the group wins!</string>
+
+    <!-- Game 76 -->
+    <string name="game_76_name">Limit Boulder</string>
+    <string name="game_76_desc">Find your personal limit boulder and document it. Can you do it next week?</string>
+    <string name="game_76_rules">Everyone finds a boulder they just barely can\'t complete. Document this route (photo, description). In the next session, try again. Whoever completes their limit boulder sets a new one. Make progress visible!</string>
+
+    <!-- Game 77 -->
+    <string name="game_77_name">Coordinate Route</string>
+    <string name="game_77_desc">Climb a route described only by hold coordinates. No pointing allowed!</string>
+    <string name="game_77_rules">The leader marks holds with coordinates (column A–F, row 1–8). A route is described as a coordinate list: "A3 – C2 – E4 – B6". The climber must find and climb the route using the coordinates. Whoever climbs the route correctly wins!</string>
+
+    <!-- Game 78 -->
+    <string name="game_78_name">Power Traverse</string>
+    <string name="game_78_desc">Traverse as far as possible without pause – pure power endurance!</string>
+    <string name="game_78_rules">Start at the left end of the traverse wall. Climb as far right as possible without pause or slipping. Whoever gets the furthest wins. Measure distance in holds. Next week everyone tries to beat their personal record.</string>
+
+    <!-- Game 79 -->
+    <string name="game_79_name">System Board Duel</string>
+    <string name="game_79_desc">Both climb the same route – who makes more moves before falling?</string>
+    <string name="game_79_rules">Two climbers climb simultaneously (side by side) on the same route. They start at the same time and moves are counted. Whoever falls first loses. On equal falls, whoever made more moves wins. 3 rounds, then points are added.</string>
+
+    <!-- Game 80 -->
+    <string name="game_80_name">Dynamo Training</string>
+    <string name="game_80_desc">Train dynamic moves: from small controlled ones to big explosive dynos!</string>
+    <string name="game_80_rules">Progression: 1. Small dyno (one hold distance), 2. Medium dyno (two hold distances), 3. Large dyno (three hold distances), 4. Coordinated dyno (both hands switch simultaneously). 3 attempts per level. Whoever reaches level 4 has completed dynamo training!</string>
+
+    <!-- Game 81 -->
+    <string name="game_81_name">Technical Analysis</string>
+    <string name="game_81_desc">Climb a route then analyze every single move. What was good, what was bad?</string>
+    <string name="game_81_rules">Person A climbs a medium route. Person B watches and takes notes: Which holds were used well? Where were the problems? Then both discuss every move. Person A climbs again with the improvement suggestions. Then switch!</string>
+
+    <!-- Game 82 -->
+    <string name="game_82_name">Route Setting</string>
+    <string name="game_82_desc">Set your own route for fellow climbers and explain the idea behind it.</string>
+    <string name="game_82_rules">Each child may set their own route (mark with tape or chalk). The route must be fair and interesting for fellow climbers. The "route setter" then explains the key moves. Everyone climbs the route. Who rates others\' routes most creatively?</string>
+
+    <!-- Game 83 -->
+    <string name="game_83_name">Lead Simulation</string>
+    <string name="game_83_desc">Simulate lead climbing movements: clipping the rope, looking up, controlled lowering.</string>
+    <string name="game_83_rules">With a climbing rope (no real lead!) climb a route and simulate clipping: pick up rope, hold to the side, "clip". At the top: release hands, let go of wall and be lowered in a controlled manner. Practice for future real lead climbing!</string>
+
+    <!-- Game 84 -->
+    <string name="game_84_name">Athlete Circuit</string>
+    <string name="game_84_desc">5 stations for 45 seconds each: jump rope, burpees, climbing, push-ups, sprinting.</string>
+    <string name="game_84_rules">Station 1: Jump rope (45 sec), Station 2: Burpees (45 sec), Station 3: Traverse climbing (45 sec), Station 4: Push-ups (45 sec), Station 5: 20m sprint back and forth (45 sec). 15 sec rest between stations. 2 rounds. Whoever completes 2 rounds is an athlete!</string>
+
+    <!-- Game 85 -->
+    <string name="game_85_name">Partner Stretch</string>
+    <string name="game_85_desc">Deep stretching in pairs – gently getting into the stretch with mutual assistance.</string>
+    <string name="game_85_rules">5 stretches in pairs: 1. Back-to-back sit, 2. Shoulder stretch with help, 3. Thigh stretch with support, 4. Side stretch, 5. Hip opener. Hold each stretch 30 seconds. Partner applies gentle pressure, never jerky. Communication is key!</string>
+
+    <!-- Game 86 -->
+    <string name="game_86_name">Coordination Ladder</string>
+    <string name="game_86_desc">Different patterns through a coordination ladder on the ground – fast and precise!</string>
+    <string name="game_86_rules">Place a coordination ladder (or tape) on the ground. Different patterns: 1. One foot per field, 2. Both feet per field, 3. Sideways, 4. Crossover step. Each person does all 4 patterns. Fastest and most error-free wins the round. Timekeeper needed!</string>
+
+    <!-- Game 87 -->
+    <string name="game_87_name">Balance Board</string>
+    <string name="game_87_desc">Stand on a balance board and hold various poses. How long can you balance?</string>
+    <string name="game_87_rules">On the balance board (or unstable surface): Round 1: just stand (30 sec), Round 2: lift one leg (15 sec each side), Round 3: close eyes (10 sec), Round 4: catch a ball (10 throws). Points for each successfully completed round!</string>
+
+    <!-- Game 88 -->
+    <string name="game_88_name">Medicine Ball Athletics</string>
+    <string name="game_88_desc">Medicine ball throws, squats and rotations for strength and coordination.</string>
+    <string name="game_88_rules">With a light medicine ball (2–4 kg): 1. Chest passes in pairs (10×), 2. Overhead throws upward (10×), 3. Russian twists seated (20×), 4. Squat with medicine ball (15×), 5. Slam ball on mat (10×). 3 rounds. Choose weight based on ability!</string>
+
+    <!-- Game 89 -->
+    <string name="game_89_name">Max Pull-Ups</string>
+    <string name="game_89_desc">How many pull-ups can you do in one set? Your personal record!</string>
+    <string name="game_89_rules">Each person has one attempt. Full pull-up: arms straight at bottom, chin above bar at top. No swinging, no kipping. Whoever does the most reps wins. Record result – compare next session. Honesty in execution is mandatory!</string>
+
+    <!-- Game 90 -->
+    <string name="game_90_name">Fingerboard Training</string>
+    <string name="game_90_desc">Hang on various hold depths for 10 seconds each. Build grip strength!</string>
+    <string name="game_90_rules">Progression on the fingerboard: 1. Full crimp (all 4 fingers, 10 sec), 2. Two-thirds depth (10 sec), 3. Half depth (10 sec), 4. Tiny ledge (10 sec, if possible). 3 minutes rest between ledges. Never hang to the point of pain! Technique before intensity.</string>
+
+    <!-- Game 91 -->
+    <string name="game_91_name">One-Arm Hang</string>
+    <string name="game_91_desc">Hang with one hand from the bar or hold – how long does each side hold?</string>
+    <string name="game_91_rules">Always with belay! On a thick hold or bar: hang with one hand as long as possible. Measure time. Then the other hand. Note the difference. Goal: develop both sides equally. Not to exhaustion – maximum 80% of maximum hang time.</string>
+
+    <!-- Game 92 -->
+    <string name="game_92_name">Push and Pull</string>
+    <string name="game_92_desc">Superset: push-ups (push) + pull-ups (pull) – the perfect duo for climbers!</string>
+    <string name="game_92_rules">Superset without rest: 5 push-ups directly followed by 5 pull-ups. That\'s 1 round. 3 minutes rest. Then Round 2. 3 rounds total. Whoever completes all 3 rounds with correct technique is on the right track. Start with fewer reps if needed!</string>
+
+    <!-- Game 93 -->
+    <string name="game_93_name">Core Power</string>
+    <string name="game_93_desc">L-sit, front lever attempt and hollow body hold – core strength for elite climbers!</string>
+    <string name="game_93_rules">1. L-sit (legs straight, lift off ground, 10 sec), 2. Hollow body hold (on back, body like a banana, 30 sec), 3. Front lever attempt (hang from bar, legs to horizontal, as far as possible). 3 attempts each. Document progress weekly!</string>
+
+    <!-- Game 94 -->
+    <string name="game_94_name">Explosive Power</string>
+    <string name="game_94_desc">Train clap push-ups and explosive pull-ups – speed strength for dynamic moves!</string>
+    <string name="game_94_rules">Clap push-ups: 3 sets of 5 reps. Explosive pull-ups (as fast as possible upward, controlled downward): 3 sets of 3 reps. 2 minutes rest between sets. Only if basic strength is already present! Technique first, explosiveness comes naturally.</string>
+
+    <!-- Game 95 -->
+    <string name="game_95_name">Shoulder Protocol</string>
+    <string name="game_95_desc">Shoulder health: rotation, elevation, depression and stabilization for injury-free climbing.</string>
+    <string name="game_95_rules">Daily protocol (10 min): 1. Shoulder rotation with band (15× each side), 2. Shoulder blade elevation and depression (15×), 3. Y-T-W-L exercises on the ground (10× each), 4. Theraband external rotation (15× each side). Light resistance, high movement quality!</string>
+
+    <!-- Game 96 -->
+    <string name="game_96_name">Grip Strength Training</string>
+    <string name="game_96_desc">Train all grip types: closed crimp, open hand, sidepull, pinch.</string>
+    <string name="game_96_rules">4 stations: 1. Crimp (closed grip, 10 sec, 3×), 2. Open hand (10 sec, 3×), 3. Sidepull (10 sec each side, 3×), 4. Pinch (thumb + fingers, 10 sec, 3×). 2 min rest per station. Never hang to pain! Stretch after training.</string>
+
+    <!-- Game 97 -->
+    <string name="game_97_name">Antagonist Training</string>
+    <string name="game_97_desc">Train finger extensors and forearm opposing muscles – prevention against overuse!</string>
+    <string name="game_97_rules">3 exercises: 1. Finger extensors with band (open fingers against resistance, 20×, 3 sets), 2. Wrist extension (light weight, 15×, 3 sets), 3. Forearm pronation/supination with hammer (15×, 3 sets). Do after every climbing training. Prevention beats recovery!</string>
+
+    <!-- Game 98 -->
+    <string name="game_98_name">Max Strength Test</string>
+    <string name="game_98_desc">Standardized test: max pull-ups + max push-ups + max hang time.</string>
+    <string name="game_98_rules">Test in this order (5 min rest each): 1. Maximum pull-ups in one set, 2. Maximum push-ups in one set, 3. Maximum hang time (straight arms). Document all results. Repeat monthly to measure progress. Technique must be correct!</string>
+
+    <!-- Game 99 -->
+    <string name="game_99_name">Strength Endurance</string>
+    <string name="game_99_desc">3 rounds: 10 pull-ups + 20 push-ups + 30 sit-ups each. No rest between exercises!</string>
+    <string name="game_99_rules">One round: 10 pull-ups, immediately 20 push-ups, immediately 30 sit-ups. No rest between exercises. 3 minutes rest between rounds. 3 rounds total. Whoever completes all 3 rounds with correct technique has exceptional climber strength endurance!</string>
+
+    <!-- Game 100 -->
+    <string name="game_100_name">Camp4 Full Program</string>
+    <string name="game_100_desc">The complete training protocol of a professional climber – for an entire session!</string>
+    <string name="game_100_rules">Full session (90 min): 1. Warm-up 15 min (Juggler Warm-Up + Magic Mirror), 2. Fingerboard 20 min (Grip Strength Training), 3. Boulder training 30 min (Onsight + Limit + Technical Analysis), 4. Strength 15 min (Push and Pull + Core Power), 5. Cool-down 10 min (Partner Stretch + Shoulder Protocol).</string>
+</resources>

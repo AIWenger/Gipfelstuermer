@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GipfelStürmer</string>
+    <string name="app_subtitle">100 Spiele für kleine Kletterer</string>
+    <string name="search_placeholder">Spiel, Kategorie oder Stichwort suchen</string>
+    <string name="tab_all">Alle Spiele</string>
+    <string name="tab_indoor">Halle</string>
+    <string name="tab_outdoor">Draußen</string>
+    <string name="random_game">Zufälliges Spiel wählen</string>
+    <string name="games_found">%d Spiele gefunden</string>
+    <string name="difficulty_easy">Leicht</string>
+    <string name="difficulty_medium">Mittel</string>
+    <string name="difficulty_hard">Schwer</string>
+    <string name="back">Zurück</string>
+    <string name="favorite">Favorit</string>
+    <string name="rules">Regeln</string>
+    <string name="description">Beschreibung</string>
+    <string name="location_indoor">Halle</string>
+    <string name="location_outdoor">Draußen</string>
+    <string name="timer_reset">Zurücksetzen</string>
+    <string name="timer_start">Start</string>
+    <string name="timer_pause">Pause</string>
+
+    <!-- Altersgruppen -->
+    <string name="age_all">Alle</string>
+    <string name="age_klein">Klein</string>
+    <string name="age_mittel">Mittel</string>
+    <string name="age_gross">Groß</string>
+    <string name="age_klein_label">4–6 Jahre</string>
+    <string name="age_mittel_label">7–10 Jahre</string>
+    <string name="age_gross_label">11+ Jahre</string>
+    <string name="age_group">Altersgruppe</string>
+
+    <!-- Spieltypen -->
+    <string name="type_all">Alle</string>
+    <string name="type_klettern">Klettern</string>
+    <string name="type_aufwaermen">Aufwärmen</string>
+    <string name="type_kraft">Kraft</string>
+    <string name="game_type">Spieltyp</string>
+
+    <!-- Spiel 1 -->
+    <string name="game_1_name">Der blinde Passagier</string>
+    <string name="game_1_desc">Ein Kletterer klettert blind (oder mit verbundenen Augen) eine Route, während ein Partner Anweisungen gibt.</string>
+    <string name="game_1_rules">Ein Kletterer bekommt die Augen verbunden. Der Partner steht unten und gibt Anweisungen wie \"rechte Hand hoch\", \"linker Fuß nach links\". Ziel ist es, die Route ohne zu sehen zu bewältigen. Wechselt nach jedem Durchgang die Rollen.</string>
+
+    <!-- Spiel 2 -->
+    <string name="game_2_name">Grifffarben-Roulette</string>
+    <string name="game_2_desc">Nur Griffe einer bestimmten Farbe dürfen benutzt werden. Wer zuerst oben ist, gewinnt.</string>
+    <string name="game_2_rules">Wählt eine Grifffarbe aus. Alle Kletterer dürfen nur Griffe dieser Farbe benutzen. Tritte sind frei wählbar. Wer die Route als Erstes schafft oder am weitesten kommt, gewinnt die Runde.</string>
+
+    <!-- Spiel 3 -->
+    <string name="game_3_name">Kletter-Memory</string>
+    <string name="game_3_desc">Der erste Kletterer macht einen Zug, der nächste wiederholt und fügt einen hinzu.</string>
+    <string name="game_3_rules">Der erste Kletterer macht einen Zug (z.B. rechte Hand auf einen bestimmten Griff). Der nächste Kletterer wiederholt diesen Zug und fügt einen eigenen hinzu. So geht es weiter, bis jemand einen Fehler macht. Wer sich am längsten die Sequenz merkt, gewinnt.</string>
+
+    <!-- Spiel 4 -->
+    <string name="game_4_name">Spinne</string>
+    <string name="game_4_desc">Klettere quer über die Wand, ohne den Boden zu berühren. Wer am weitesten kommt, gewinnt.</string>
+    <string name="game_4_rules">Alle starten am gleichen Punkt und klettern seitlich (traversieren) über die Wand. Der Boden darf nicht berührt werden. Wer abfällt, ist raus. Wer am weitesten kommt, ohne den Boden zu berühren, gewinnt.</string>
+
+    <!-- Spiel 5 -->
+    <string name="game_5_name">Eichhörnchen</string>
+    <string name="game_5_desc">Sammle kleine Gegenstände an der Wand ein, während du kletterst. Wer die meisten sammelt, gewinnt.</string>
+    <string name="game_5_rules">Befestige kleine Gegenstände (Wäscheklammern, Sticker) an verschiedenen Griffen der Wand. Die Kletterer müssen so viele wie möglich einsammeln und in einer Tasche verstauen, ohne abzufallen. Wer die meisten sammelt, gewinnt.</string>
+
+    <!-- Spiel 6 -->
+    <string name="game_6_name">Kletter-Twister</string>
+    <string name="game_6_desc">Wie Twister, aber an der Kletterwand! Farben und Gliedmaßen werden angesagt.</string>
+    <string name="game_6_rules">Ein Spielleiter ruft Kombinationen wie \"Rechte Hand auf Rot\" oder \"Linker Fuß auf Blau\". Die Kletterer müssen der Anweisung folgen, ohne abzufallen. Wer abfällt oder die Anweisung nicht umsetzen kann, scheidet aus.</string>
+
+    <!-- Spiel 7 -->
+    <string name="game_7_name">Kletterpolizist</string>
+    <string name="game_7_desc">Ein Kletterer ist der \"Polizist\" und versucht, die anderen an der Wand zu fangen.</string>
+    <string name="game_7_rules">Ein Kind ist der Polizist und klettert den anderen hinterher. Wer vom Polizist berührt wird, ist gefangen und muss runter. Der Letzte an der Wand gewinnt und wird neuer Polizist. Nur im Traversier-Bereich (niedrige Höhe) spielen!</string>
+
+    <!-- Spiel 8 -->
+    <string name="game_8_name">Lava-Boden</string>
+    <string name="game_8_desc">Der Boden ist Lava! Klettere von einem Punkt zum anderen, ohne den Boden zu berühren.</string>
+    <string name="game_8_rules">Markiert Start- und Zielpunkte an der Wand. Der Boden ist \"Lava\" und darf nicht berührt werden. Die Kletterer müssen den Weg komplett an der Wand entlang schaffen. Wer den Boden berührt, muss von vorne beginnen.</string>
+
+    <!-- Spiel 9 -->
+    <string name="game_9_name">Einarmiger Bandit</string>
+    <string name="game_9_desc">Klettere eine einfache Route nur mit einem Arm. Links oder rechts wird vorher bestimmt.</string>
+    <string name="game_9_rules">Wähle eine leichte Route. Bestimme vor dem Start, welcher Arm benutzt werden darf. Der andere Arm bleibt hinter dem Rücken. Beide Füße dürfen frei benutzt werden. Wer die Route schafft, probiert den anderen Arm.</string>
+
+    <!-- Spiel 10 -->
+    <string name="game_10_name">Kletterkaraoke</string>
+    <string name="game_10_desc">Klettere eine Route und singe dabei ein Lied. Wer aufhört zu singen oder abfällt, ist raus.</string>
+    <string name="game_10_rules">Jeder Kletterer wählt ein Lied und muss es während des Kletterns singen. Wer aufhört zu singen oder abfällt, scheidet aus. Die anderen bewerten nach Kletter-Leistung und Gesang. Der beste Gesamteindruck gewinnt!</string>
+
+    <!-- Spiel 11 -->
+    <string name="game_11_name">Freeze!</string>
+    <string name="game_11_desc">Musik läuft – wenn sie stoppt, muss jeder an der Wand einfrieren. Wer sich bewegt, ist raus.</string>
+    <string name="game_11_rules">Spielt Musik, während die Kinder an der Wand klettern. Wenn die Musik stoppt, müssen alle sofort einfrieren. Wer sich bewegt oder abfällt, ist raus. Musik wieder an – weiter klettern. Letzter Kletterer an der Wand gewinnt.</string>
+
+    <!-- Spiel 12 -->
+    <string name="game_12_name">Kletter-Staffel</string>
+    <string name="game_12_desc">Zwei Teams klettern im Staffellauf um die Wette. Abklatschen am Boden zählt als Übergabe.</string>
+    <string name="game_12_rules">Bildet zwei gleich große Teams. Ein Kletterer pro Team klettert eine Route hoch und wieder runter, klatscht den nächsten ab. Das Team, bei dem alle Mitglieder zuerst fertig sind, gewinnt. Bei Abfallen muss von unten neu gestartet werden.</string>
+
+    <!-- Spiel 13 -->
+    <string name="game_13_name">Fels-Tick-Tack-Toe</string>
+    <string name="game_13_desc">Spielt Tic-Tac-Toe an der Kletterwand mit farbigen Markierungen.</string>
+    <string name="game_13_rules">Zeichnet ein 3x3 Gitter mit Tape an die Wand (im Traverse-Bereich). Zwei Spieler klettern abwechselnd und platzieren ihre farbigen Markierungen (Wäscheklammern o.ä.) in ein Feld. Wer drei in einer Reihe hat, gewinnt!</string>
+
+    <!-- Spiel 14 -->
+    <string name="game_14_name">Kletter-Würfeln</string>
+    <string name="game_14_desc">Würfle und klettere so viele Griffe weiter, wie der Würfel anzeigt.</string>
+    <string name="game_14_rules">Jeder Kletterer würfelt am Boden und klettert dann genau so viele Griffe weiter, wie der Würfel zeigt. Danach wird wieder gewürfelt. Wer als Erster eine bestimmte Route oder Höhe erreicht, gewinnt. Bei 6 darf man einen Bonuszug machen.</string>
+
+    <!-- Spiel 15 -->
+    <string name="game_15_name">Schattenkletterer</string>
+    <string name="game_15_desc">Klettere genau die gleichen Züge wie dein Vordermann. Nur Nachahmen ist erlaubt!</string>
+    <string name="game_15_rules">Der erste Kletterer klettert langsam eine Route. Der zweite Kletterer startet kurz danach und muss exakt die gleichen Griffe und Tritte benutzen. Wird ein anderer Griff benutzt oder ein Zug vergessen, ist man raus.</string>
+
+    <!-- Spiel 16 -->
+    <string name="game_16_name">Bergsteiger-Quiz</string>
+    <string name="game_16_desc">Beantworte Quizfragen, während du an der Wand hängst. Falsche Antwort = runter!</string>
+    <string name="game_16_rules">Ein Spielleiter stellt Fragen, während die Kinder an der Wand hängen. Wer richtig antwortet, darf weiter klettern. Wer falsch antwortet, muss einen Griff tiefer. Wer als Erster oben ist oder am längsten hängt, gewinnt.</string>
+
+    <!-- Spiel 17 -->
+    <string name="game_17_name">Kletter-Bingo</string>
+    <string name="game_17_desc">Jeder bekommt eine Bingo-Karte mit Kletter-Aufgaben. Wer zuerst eine Reihe schafft, ruft Bingo!</string>
+    <string name="game_17_rules">Erstellt Bingo-Karten mit Aufgaben wie \"Klettere mit nur 3 Griffen\", \"Berühre den höchsten Griff\", \"Traverse 2 Meter\". Die Kinder klettern und haken erledigte Aufgaben ab. Wer zuerst eine Reihe voll hat, ruft BINGO!</string>
+
+    <!-- Spiel 18 -->
+    <string name="game_18_name">Zeitrennen</string>
+    <string name="game_18_desc">Wer klettert die Route am schnellsten? Die Stoppuhr entscheidet!</string>
+    <string name="game_18_rules">Wählt eine Route, die alle kennen. Jeder Kletterer wird einzeln mit der Stoppuhr gemessen. Die schnellste Zeit gewinnt. Tipp: Nutzt den eingebauten Timer der App! Fair play: Alle starten vom gleichen Punkt.</string>
+
+    <!-- Spiel 19 -->
+    <string name="game_19_name">Naturforscher</string>
+    <string name="game_19_desc">Klettere draußen am Fels und entdecke Tiere, Pflanzen und besondere Steine.</string>
+    <string name="game_19_rules">Beim Klettern am echten Fels: Erstellt vorher eine Liste mit Dingen, die gefunden werden sollen (bestimmter Stein, Moos, Käfer, etc.). Während des Kletterns werden die Entdeckungen gesammelt. Wer die meisten Dinge von der Liste findet, gewinnt.</string>
+
+    <!-- Spiel 20 -->
+    <string name="game_20_name">Kletter-Roboter</string>
+    <string name="game_20_desc">Dein Partner ist der Roboter – er klettert nur, wenn du den richtigen Befehl gibst.</string>
+    <string name="game_20_rules">Ein Kind ist der \"Programmierer\", das andere der \"Roboter\". Der Roboter darf sich nur nach Befehlen bewegen: \"Rechte Hand hoch 30cm\", \"Linker Fuß rechts 20cm\". Der Roboter führt exakt aus, was gesagt wird. Ziel: Route schaffen nur durch Befehle!</string>
+
+    <!-- Spiel 21 -->
+    <string name="game_21_name">Kletter-Alphabet</string>
+    <string name="game_21_desc">Finde Griffe, die wie Buchstaben aussehen, und buchstabiere deinen Namen.</string>
+    <string name="game_21_rules">Schaut euch die Griffe an der Wand an. Findet Griffe, die wie Buchstaben aussehen. Jeder versucht, seinen Namen zu buchstabieren, indem er die entsprechenden Griffe berührt. Wer seinen Namen zuerst vollständig buchstabiert hat, gewinnt.</string>
+
+    <!-- Spiel 22 -->
+    <string name="game_22_name">Griff-Detektiv</string>
+    <string name="game_22_desc">Ein Griff an der Wand wird heimlich markiert. Finde ihn, während du kletterst!</string>
+    <string name="game_22_rules">Ein Spielleiter markiert heimlich einen Griff (z.B. mit einem kleinen Sticker auf der Unterseite). Die Kletterer müssen kletternd den markierten Griff finden, indem sie die Griffe von allen Seiten untersuchen. Wer den Sticker zuerst findet, gewinnt.</string>
+
+    <!-- Spiel 23 -->
+    <string name="game_23_name">Kletter-Yoga</string>
+    <string name="game_23_desc">Halte verschiedene Yoga-Posen an der Wand. Wer am längsten durchhält, gewinnt.</string>
+    <string name="game_23_rules">Kinder klettern auf eine bequeme Position an der Wand. Der Spielleiter ruft Posen: \"Ein Bein loslassen\", \"Nur mit einer Hand halten\", \"Rücken zur Wand\". Jede Pose muss 10 Sekunden gehalten werden. Wer abfällt, scheidet aus.</string>
+
+    <!-- Spiel 24 -->
+    <string name="game_24_name">Gipfel-Bote</string>
+    <string name="game_24_desc">Bringe eine Nachricht kletternd von einem Punkt zum anderen – ohne sie zu verlieren!</string>
+    <string name="game_24_rules">Jedes Kind bekommt einen kleinen Zettel (die \"Nachricht\"), den es im Mund oder in der Tasche transportieren muss. Klettere von Start bis Ziel, ohne die Nachricht zu verlieren. Wer die Nachricht verliert, muss von vorne beginnen.</string>
+
+    <!-- Spiel 25 -->
+    <string name="game_25_name">Kletter-Domino</string>
+    <string name="game_25_desc">Der nächste Kletterer muss am Griff starten, wo der vorherige aufgehört hat.</string>
+    <string name="game_25_rules">Der erste Kletterer klettert frei und stoppt an einem beliebigen Griff. Der nächste Kletterer muss genau an diesem Griff starten und von dort aus weiterklettern, bis er stoppt. So geht es weiter. Wer keinen Anschluss findet, scheidet aus.</string>
+
+    <!-- Spiel 26 -->
+    <string name="game_26_name">Leise Kletterer</string>
+    <string name="game_26_desc">Klettere so leise wie möglich. Jedes Geräusch beim Greifen oder Treten gibt einen Punktabzug.</string>
+    <string name="game_26_rules">Die Kinder klettern eine Route und versuchen, so leise wie möglich zu sein. Ein Beobachter zählt jedes hörbare Geräusch (Klacken, Kratzen, Stöhnen). Wer die wenigsten Geräusche gemacht hat, gewinnt. Fördert saubere Klettertechnik!</string>
+
+    <!-- Spiel 27 -->
+    <string name="game_27_name">Kletter-Simon-Says</string>
+    <string name="game_27_desc">\"Simon sagt: Rechte Hand auf Gelb!\" Nur wenn Simon es sagt, darfst du dich bewegen.</string>
+    <string name="game_27_rules">Wie \"Simon sagt\", aber an der Wand. Der Spielleiter gibt Anweisungen. Nur bei \"Simon sagt...\" darf die Anweisung befolgt werden. Wer sich ohne \"Simon sagt\" bewegt, muss runter. Letzter Kletterer an der Wand gewinnt.</string>
+
+    <!-- Spiel 28 -->
+    <string name="game_28_name">Kletter-Parcours</string>
+    <string name="game_28_desc">Baue einen Parcours mit verschiedenen Stationen: Klettern, Balancieren, Springen.</string>
+    <string name="game_28_rules">Baut einen Parcours mit Stationen: 1. Traverse an der Wand, 2. Über eine Bank balancieren, 3. Durch einen Reifen klettern, 4. Route hoch und runter. Jedes Kind wird mit der Stoppuhr gemessen. Die schnellste Gesamtzeit gewinnt.</string>
+
+    <!-- Spiel 29 -->
+    <string name="game_29_name">Griffzähler</string>
+    <string name="game_29_desc">Schaffe die Route mit so wenigen Griffen wie möglich. Jeder Griff wird gezählt.</string>
+    <string name="game_29_rules">Wählt eine Route. Jeder Kletterer versucht, sie mit so wenigen Griffen wie möglich zu schaffen. Ein Beobachter zählt jeden benutzten Griff. Wer die wenigsten Griffe braucht, gewinnt. Fördert Effizienz und Planung!</string>
+
+    <!-- Spiel 30 -->
+    <string name="game_30_name">Gipfelstürmer-Challenge</string>
+    <string name="game_30_desc">Die ultimative Challenge: Schaffe so viele Routen wie möglich in einer bestimmten Zeit.</string>
+    <string name="game_30_rules">Stellt den Timer auf 10 Minuten. Jeder Kletterer versucht, in dieser Zeit so viele verschiedene Routen wie möglich zu klettern. Jede geschaffte Route gibt einen Punkt. Schwierige Routen geben Bonuspunkte. Wer die meisten Punkte hat, ist der Gipfelstürmer!</string>
+
+    <!-- Spiel 31 -->
+    <string name="game_31_name">Froschsprung</string>
+    <string name="game_31_desc">Springe wie ein Frosch von Griff zu Griff an der Wand. Wer kommt am weitesten?</string>
+    <string name="game_31_rules">Startet auf niedrigen Griffen. Jedes Kind springt beidbeinig von Griff zu Griff nach oben. Wer einen Griff verfehlt oder abfällt, beginnt von vorne. Wer am höchsten kommt, gewinnt. Nur in sicherer Sprunghöhe spielen!</string>
+
+    <!-- Spiel 32 -->
+    <string name="game_32_name">Krabbelkäfer</string>
+    <string name="game_32_desc">Klettere auf allen Vieren – Hände und Füße flach – wie ein Käfer die Wand entlang.</string>
+    <string name="game_32_rules">Stellt euch vor, ihr seid Käfer! Klettert mit flachen Händen und Füßen (keine Griffe greifen, einfach flach andrücken) so weit wie möglich die Wand entlang. Wer am weitesten kommt, ohne abzufallen, gewinnt.</string>
+
+    <!-- Spiel 33 -->
+    <string name="game_33_name">Affenschwingen</string>
+    <string name="game_33_desc">Traverse nur mit den Händen – Füße bleiben in der Luft. Wie weit kommst du?</string>
+    <string name="game_33_rules">Startet am linken Rand der Traversalwand. Nur die Hände dürfen Griffe berühren – die Füße hängen frei. Schwingt euch von Griff zu Griff. Wer am weitesten kommt ohne den Boden zu berühren, ist der beste Affe!</string>
+
+    <!-- Spiel 34 -->
+    <string name="game_34_name">Sternschnuppe</string>
+    <string name="game_34_desc">Berühre 5 verschiedene farbige Griffe so schnell wie möglich. Die Zeit läuft!</string>
+    <string name="game_34_rules">Wählt 5 Griffe in verschiedenen Farben und markiert sie mit Klebestreifen. Jedes Kind startet am Boden, klettert und berührt alle 5 Griffe in beliebiger Reihenfolge. Wer alle 5 am schnellsten berührt hat, macht eine Sternschnuppe!</string>
+
+    <!-- Spiel 35 -->
+    <string name="game_35_name">Regenbogenkletterer</string>
+    <string name="game_35_desc">Klettere die Griffe in der Reihenfolge der Regenbogenfarben: Rot, Orange, Gelb, Grün, Blau!</string>
+    <string name="game_35_rules">Jedes Kind klettert die Wand hoch und berührt dabei die Griffe in der Reihenfolge Rot – Orange – Gelb – Grün – Blau – Lila. Wird eine Farbe übersprungen, muss man von vorne beginnen. Wer den kompletten Regenbogen schafft, gewinnt!</string>
+
+    <!-- Spiel 36 -->
+    <string name="game_36_name">Seifenblasen-Route</string>
+    <string name="game_36_desc">Klettere so sanft und ruhig, als würdest du Seifenblasen nicht zerplatzen lassen.</string>
+    <string name="game_36_rules">Ein Beobachter bläst echte Seifenblasen neben die Kletterwand. Die Kinder klettern eine leichte Route und versuchen, durch ruhige, sanfte Bewegungen keine Seifenblase zu zerplatzen. Wer die meisten Blasen am Leben lässt, gewinnt!</string>
+
+    <!-- Spiel 37 -->
+    <string name="game_37_name">Tierpfoten</string>
+    <string name="game_37_desc">Imitiere beim Klettern die Bewegungen verschiedener Tiere. Bär, Katze, Spinne – was bist du?</string>
+    <string name="game_37_rules">Der Spielleiter ruft ein Tier. Die Kinder klettern dann wie dieses Tier: Bär (langsam, schwerfällig), Katze (schleichend, elegant), Spinne (seitlich, schnell), Frosch (springend). Der Spielleiter bewertet, wer das Tier am besten darstellt.</string>
+
+    <!-- Spiel 38 -->
+    <string name="game_38_name">Farbenwurm</string>
+    <string name="game_38_desc">Klettere immer abwechselnd: Rot – Blau – Gelb. Wer die Reihenfolge bricht, ist raus!</string>
+    <string name="game_38_rules">Jedes Kind klettert die Wand hoch und muss dabei die Griffe in der Reihenfolge Rot – Blau – Gelb – Rot – Blau – Gelb benutzen. Ein Beobachter kontrolliert. Wer eine falsche Farbe greift, muss von vorne beginnen. Wer als Erster oben ist, gewinnt.</string>
+
+    <!-- Spiel 39 -->
+    <string name="game_39_name">Tanzende Berge</string>
+    <string name="game_39_desc">Tanze zu Musik und stelle beim Stopp einen Berggipfel oder einen Kletterer dar!</string>
+    <string name="game_39_rules">Musik läuft, alle tanzen frei durch den Raum. Wenn die Musik stoppt, ruft der Spielleiter entweder \"Berg\" (alle strecken die Arme nach oben spitz zu) oder \"Kletterer\" (alle simulieren Klettergriffe). Wer zu langsam ist, scheidet aus.</string>
+
+    <!-- Spiel 40 -->
+    <string name="game_40_name">Hampelmann-Rennen</string>
+    <string name="game_40_desc">Wer macht in 30 Sekunden die meisten Hampelmänner? Los geht\'s!</string>
+    <string name="game_40_rules">Alle starten gleichzeitig. Jeder macht so viele Hampelmänner wie möglich in 30 Sekunden. Ein Partner zählt mit. Nach der Zeit werden die Ergebnisse verglichen. Wer die meisten hat, gewinnt die Runde. Mehrere Runden spielen!</string>
+
+    <!-- Spiel 41 -->
+    <string name="game_41_name">Pinguin-Lauf</string>
+    <string name="game_41_desc">Laufe mit eng an den Körper gepressten Armen zum Ziel und zurück – wie ein Pinguin!</string>
+    <string name="game_41_rules">Alle drücken die Arme fest an den Körper (Ellbogen an der Seite, Hände nach vorne). So laufen sie einen Parcours ab: Slalom um Hütchen, über eine Linie, zurück zum Start. Wer am schnellsten ist, gewinnt. Arme ablösen = Strafe (5 Hampelmänner).</string>
+
+    <!-- Spiel 42 -->
+    <string name="game_42_name">Hüpfspaß</string>
+    <string name="game_42_desc">Hüpfe auf einem Bein durch verschiedene Felder. Wer fällt, wechselt das Bein.</string>
+    <string name="game_42_rules">Zeichnet oder legt Felder auf den Boden (mit Tape oder Reifen). Alle hüpfen auf einem Bein durch die Felder. Wer mit beiden Beinen landet oder herausspringt, muss auf dem anderen Bein weiterhüpfen. Wer den Parcours zuerst schafft, gewinnt.</string>
+
+    <!-- Spiel 43 -->
+    <string name="game_43_name">Raketen-Start</string>
+    <string name="game_43_desc">Lege dich flach auf den Boden, zähle rückwärts von 5 und schieße wie eine Rakete hoch!</string>
+    <string name="game_43_rules">Alle legen sich flach auf den Boden. Gemeinsam zählen alle rückwärts: 5 – 4 – 3 – 2 – 1 – Zündung! Bei \"Zündung\" springen alle gleichzeitig auf und strecken die Arme nach oben. Danach direkt in 10 Kniebeugen. Wer am schnellsten steht, gewinnt!</string>
+
+    <!-- Spiel 44 -->
+    <string name="game_44_name">Spinnen-Lauf</string>
+    <string name="game_44_desc">Gehe auf Händen und Füßen, den Bauch zur Decke. Kannst du so schnell sein wie eine Spinne?</string>
+    <string name="game_44_rules">Alle gehen in die \"Krabbenposition\": Hände und Füße auf dem Boden, Bauch nach oben. In dieser Position einen Parcours durchlaufen. Wer am schnellsten ist, gewinnt. Variation: Dabei einen kleinen Ball auf dem Bauch balancieren!</string>
+
+    <!-- Spiel 45 -->
+    <string name="game_45_name">Zauberspiegel</string>
+    <string name="game_45_desc">Zwei Kinder stehen sich gegenüber und spiegeln die Bewegungen des anderen – perfekt synchron!</string>
+    <string name="game_45_rules">Zwei Kinder stehen sich gegenüber. Kind A macht langsame Bewegungen (Arme heben, Kniebeugen, Drehungen). Kind B versucht, wie ein Spiegel exakt die gleichen Bewegungen zu machen. Nach 1 Minute wechseln. Die anderen Kinder bewerten, wer am synchronsten war.</string>
+
+    <!-- Spiel 46 -->
+    <string name="game_46_name">Kleiner Löwe</string>
+    <string name="game_46_desc">Liegestütze auf den Knien – so viele wie möglich! Brülle wie ein Löwe bei jeder Wiederholung.</string>
+    <string name="game_46_rules">Alle machen Knie-Liegestütze und brüllen leise bei jeder Wiederholung. Wer 5 Stück schafft, darf eine Löwenmähne mimen. Wer 10 schafft, ist ein großer Löwe. Wer mehr als 15 schafft, ist der König der Kletterbeasts! Motivation durch Tiergeräusche erlaubt!</string>
+
+    <!-- Spiel 47 -->
+    <string name="game_47_name">Brücken-Bauer</string>
+    <string name="game_47_desc">Mache eine Brückenpose und halte sie so lange wie möglich. Wer baut die stabilste Brücke?</string>
+    <string name="game_47_rules">Alle gehen in die Brückenposition (Rücken und Hüfte hoch, Hände und Füße am Boden). Wer die Brücke am längsten hält, gewinnt. Variation: Der Spielleiter legt einen leichten Gegenstand auf die Brücke – wer lässt ihn fallen? Diese Person scheidet aus.</string>
+
+    <!-- Spiel 48 -->
+    <string name="game_48_name">Sitzmauer</string>
+    <string name="game_48_desc">Sitze ohne Stuhl mit dem Rücken an der Wand und halte durch. Wer hält am längsten?</string>
+    <string name="game_48_rules">Alle lehnen mit dem Rücken an der Wand, Knie 90 Grad gebeugt, als würden sie auf einem unsichtbaren Stuhl sitzen. Die Zeit wird gestoppt. Wer die Position am längsten hält, gewinnt. Hände dürfen die Wand nicht berühren. Aufgeben = ausscheiden.</string>
+
+    <!-- Spiel 49 -->
+    <string name="game_49_name">Baumstamm-Rollen</string>
+    <string name="game_49_desc">Lege dich auf die Matte, strecke den Körper und rolle wie ein Baumstamm. Wer bleibt gerade?</string>
+    <string name="game_49_rules">Alle legen sich auf den Boden, Arme gestreckt über den Kopf, Körper wie ein Brett. Nun rollen alle zur Seite – ohne Arme oder Beine zu beugen! Wer am geradesten bleibt und am weitesten rollt, gewinnt. Mehrere Runden auf Zeit.</string>
+
+    <!-- Spiel 50 -->
+    <string name="game_50_name">Frosch-Sprungkraft</string>
+    <string name="game_50_desc">Aus der tiefen Hocke so weit wie möglich springen und weich landen wie ein Frosch!</string>
+    <string name="game_50_rules">Alle stehen an einer Linie. Aus der tiefen Hocke (Fingerspitzen berühren den Boden) so weit wie möglich vorwärts springen. Die Landestelle wird markiert. Wer am weitesten springt, gewinnt. 3 Versuche, der weiteste zählt. Weiche Landung = Bonus!</string>
+
+    <!-- Spiel 51 -->
+    <string name="game_51_name">Moonboard-Einsteiger</string>
+    <string name="game_51_desc">Klettere eine vorgegebene Boulder-Route mit Koordinaten-Ansagen von deinem Partner.</string>
+    <string name="game_51_rules">Der Partner nennt Koordinaten (z.B. \"Reihe 3, Griff 2\"). Der Kletterer muss genau diesen Griff finden und verwenden. Dann nennt der Partner den nächsten. So klettern 5 Züge. Wer alle 5 korrekten Griffe trifft, hat gewonnen. Dann wechseln!</string>
+
+    <!-- Spiel 52 -->
+    <string name="game_52_name">Campus-Traverse</string>
+    <string name="game_52_desc">Traverse die Wand nur mit den Händen an Griffleisten – Füße bleiben in der Luft!</string>
+    <string name="game_52_rules">Sucht eine Traverse mit kleinen Griffleisten. Beide Hände an Leisten, Füße hängen frei. Klettert so weit wie möglich seitlich. Wer abfällt, wird ausgemessen wie weit er kam. Füße dürfen die Wand nicht berühren. Wer am weitesten kommt, gewinnt.</string>
+
+    <!-- Spiel 53 -->
+    <string name="game_53_name">Doppelgriff-Challenge</string>
+    <string name="game_53_desc">Jede Hand muss zwei Griffe gleichzeitig halten. Schaffst du die Route?</string>
+    <string name="game_53_rules">Sucht Griffe, die nahe genug zusammen sind, um mit einer Hand zwei zu greifen. Klettert eine Route, bei der jede Hand immer zwei Griffe berühren muss. Wer die Route schafft, hat die Challenge bestanden. Variation: Auch Füße müssen je zwei Tritte berühren!</string>
+
+    <!-- Spiel 54 -->
+    <string name="game_54_name">Umgekehrt-Klettern</string>
+    <string name="game_54_desc">Klettere eine Route von oben nach unten – rückwärts! Das Top ist dein Start.</string>
+    <string name="game_54_rules">Wählt eine Route, die alle kennen. Startet oben (mit Sicherung) und klettert die Route in umgekehrter Reihenfolge nach unten. Jeder Griff muss in der umgekehrten Reihenfolge benutzt werden. Wer die Route komplett rückwärts schafft, hat die Challenge bestanden!</string>
+
+    <!-- Spiel 55 -->
+    <string name="game_55_name">Blind-Traverse</string>
+    <string name="game_55_desc">Traverse blind mit verbundenen Augen – dein Partner gibt Anweisungen!</string>
+    <string name="game_55_rules">Ein Kletterer bekommt die Augen verbunden und klettert im Traversalbereich (niedrige Höhe, maximal 1 Meter). Der Partner steht daneben und gibt präzise Anweisungen: \"Rechte Hand 20 cm nach rechts\", \"Linker Fuß hoch\". Nach 5 Zügen wechseln. Sicherheit geht vor!</string>
+
+    <!-- Spiel 56 -->
+    <string name="game_56_name">Pausenloser Aufstieg</string>
+    <string name="game_56_desc">Klettere eine Route ohne auch nur eine Sekunde zu pausieren. Kein Hängen, kein Rasten!</string>
+    <string name="game_56_rules">Wählt eine mittelschwere Route. Jeder Kletterer muss die Route von unten bis oben ohne jede Pause schaffen. Sobald man stillsteht (auch nur kurz), ist der Versuch ungültig. Die Bewegung muss konstant fließen. Wer die Route fließend schafft, hat gewonnen!</string>
+
+    <!-- Spiel 57 -->
+    <string name="game_57_name">Kletterbus</string>
+    <string name="game_57_desc">Klettert hintereinander – genau eine Grifflänge Abstand zum Vordermann!</string>
+    <string name="game_57_rules">3–4 Kinder klettern gleichzeitig hintereinander die Wand. Jedes Kind muss genau einen Griff Abstand zum nächsten halten – nicht zu nah, nicht zu weit. Wer den Abstand verliert, muss stoppen und warten. Wer als Erster oben ist, wird neuer Busfahrer!</string>
+
+    <!-- Spiel 58 -->
+    <string name="game_58_name">Spiderman-Style</string>
+    <string name="game_58_desc">Klettere möglichst nah an der Wand – kein Hohlkreuz, Körper flach wie Spiderman!</string>
+    <string name="game_58_rules">Ein Beobachter schaut, wie nah der Kletterer an der Wand bleibt. Eine Latte (oder ein Stock) wird waagerecht hinter den Rücken gehalten – wer die Latte berührt, hat zu viel Hohlkreuz. Wer eine Route schafft ohne die Latte zu berühren, klettert wie Spiderman!</string>
+
+    <!-- Spiel 59 -->
+    <string name="game_59_name">Sicherer Absprung</string>
+    <string name="game_59_desc">Lerne, aus verschiedenen Höhen kontrolliert abzuspringen und weich zu landen.</string>
+    <string name="game_59_rules">Von steigenden Höhen abspringen: zuerst 50 cm, dann 1 m, dann 1,5 m. Bei der Landung: Füße schulterbreit, leicht in die Knie gehen, Hände vorwärts. Wer am weichsten landet und die Kniebeuge am deutlichsten macht, bekommt die meisten Punkte vom Beobachter.</string>
+
+    <!-- Spiel 60 -->
+    <string name="game_60_name">Rhythmus-Klettern</string>
+    <string name="game_60_desc">Klettere im Takt zu einem Metronom oder Klatschen. Jeder Schlag = ein Zug!</string>
+    <string name="game_60_rules">Der Spielleiter klatscht oder stellt ein Metronom (60 bpm) ein. Bei jedem Schlag muss der Kletterer einen Zug machen – nicht schneller, nicht langsamer. Wer den Rhythmus verliert (zu schnell oder zu langsam), scheidet aus. Steigert das Tempo nach jeder Runde!</string>
+
+    <!-- Spiel 61 -->
+    <string name="game_61_name">Vulkan-Ausbruch</string>
+    <string name="game_61_desc">Alle springen gleichzeitig hoch und landen in der Vulkan-Pose – Arme explodieren nach außen!</string>
+    <string name="game_61_rules">Alle stehen im Kreis. Der Spielleiter zählt: \"3 – 2 – 1 – Ausbruch!\". Alle springen gleichzeitig so hoch wie möglich und landen mit weit ausgebreiteten Armen (der explodierende Vulkan). Wer am höchsten springt und die dramatischste Pose hat, gewinnt die Runde!</string>
+
+    <!-- Spiel 62 -->
+    <string name="game_62_name">Fangen und Klettern</string>
+    <string name="game_62_desc">Classic Fangen – aber man ist sicher, solange man klettert! Mindestens 3 Griffe halten.</string>
+    <string name="game_62_rules">Ein Kind ist \"es\" und versucht die anderen zu fangen. Wer an der Kletterwand klettert (mindestens 3 Griffe berührt), ist vorübergehend sicher und kann nicht gefangen werden. Wer abgestiegen ist, kann gefangen werden. Wer gefangen wird, ist das neue \"Es\".</string>
+
+    <!-- Spiel 63 -->
+    <string name="game_63_name">Zahlen-Sprint</string>
+    <string name="game_63_desc">Der Spielleiter ruft eine Zahl – alle sprinten zu dem Feld mit dieser Nummer!</string>
+    <string name="game_63_rules">Legt nummerierte Felder im Raum aus (1–10). Der Spielleiter ruft eine Zahl, alle sprinten sofort zu diesem Feld. Wer zuletzt ankommt, macht 5 Hampelmänner. Dann direkt die nächste Zahl. Variation: Zwei Zahlen nacheinander rufen für mehr Durcheinander!</string>
+
+    <!-- Spiel 64 -->
+    <string name="game_64_name">Klatsch-Kreis</string>
+    <string name="game_64_desc">Im Kreis in verschiedenen Rhythmen klatschen und stampfen – wer den Takt verliert, scheidet aus!</string>
+    <string name="game_64_rules">Alle stehen im Kreis. Der Spielleiter gibt einen Rhythmus vor (z.B. 2× klatschen, 1× stampfen). Alle machen mit. Wer den Rhythmus verliert oder zu spät ist, scheidet aus oder macht eine Extraaufgabe. Der Rhythmus wird nach jeder Runde komplexer.</string>
+
+    <!-- Spiel 65 -->
+    <string name="game_65_name">Energieball</string>
+    <string name="game_65_desc">Wirf einen unsichtbaren Energieball! Der Empfänger muss sofort reagieren und weiterspielen.</string>
+    <string name="game_65_rules">Alle stehen im Kreis. Person A formt einen imaginären Ball und \"wirft\" ihn mit einem Geräusch zu Person B. B muss sofort reagieren, den Ball \"fangen\" und weiterspielen. Wer zu langsam reagiert oder den Ball fallen lässt, scheidet aus. Tempo steigern!</string>
+
+    <!-- Spiel 66 -->
+    <string name="game_66_name">Jongleur-Aufwärmen</string>
+    <string name="game_66_desc">Wurfübungen mit Bällen in Paaren: erst einfach, dann komplizierter. Wer lässt keinen fallen?</string>
+    <string name="game_66_rules">Paare stehen sich gegenüber. Runde 1: einfacher Wurf, Runde 2: Hüpfer vor dem Fangen, Runde 3: Drehen vor dem Fangen, Runde 4: Augen kurz schließen beim Werfen. Wer den Ball fallen lässt, fängt von Runde 1 an. Gewinner ist das Paar, das am weitesten kommt.</string>
+
+    <!-- Spiel 67 -->
+    <string name="game_67_name">Mondstationen</string>
+    <string name="game_67_desc">Verschiedene Aufwärmübungen an Stationen – als hättet ihr Mondgravitation!</string>
+    <string name="game_67_rules">Richtet 4 Stationen ein: 1. Zeitlupe-Laufen (als wäre alles verlangsamt), 2. Super-Weitsprung (so weit wie auf dem Mond), 3. Schwerelos-Hampelmänner, 4. Mond-Liegestütze. Je 45 Sekunden pro Station. Dann einmal durchschnaufen und nochmal von vorne!</string>
+
+    <!-- Spiel 68 -->
+    <string name="game_68_name">Klimmzug-Leiter</string>
+    <string name="game_68_desc">1 Klimmzug, dann 2, dann 3... wie hoch kannst du die Leiter klettern?</string>
+    <string name="game_68_rules">Jeder Kletterer macht zuerst 1 Klimmzug, dann 2, dann 3 usw. Zwischen den Sätzen 30 Sekunden Pause. Wer einen Satz nicht schafft, ist ausgestiegen. Die höchste Anzahl erfolgreicher Klimmzüge in einem Satz gewinnt. Unterstützung durch leichtes Mitschieben erlaubt.</string>
+
+    <!-- Spiel 69 -->
+    <string name="game_69_name">Hänge-Halten</string>
+    <string name="game_69_desc">Hänge an einem Griff oder einer Stange – wer hält am längsten?</string>
+    <string name="game_69_rules">Alle hängen gleichzeitig an einer Stange oder einem Griff. Die Zeit wird gemessen. Wer zuerst loslässt, scheidet aus. Erlaubt: aktives Hängen (leicht gebeugte Arme) oder passives Hängen (gestreckte Arme). Wer als Letzter hängt, gewinnt. Zeit festhalten für nächste Runde!</string>
+
+    <!-- Spiel 70 -->
+    <string name="game_70_name">Planken-Varianten</string>
+    <string name="game_70_desc">Halte verschiedene Plank-Positionen: normal, seitlich, auf einem Arm. Wer hält am längsten?</string>
+    <string name="game_70_rules">Runde 1: normaler Plank (60 Sek.), Runde 2: Seitstütz links (30 Sek.), Runde 3: Seitstütz rechts (30 Sek.), Runde 4: Plank mit abwechselndem Bein-Anheben. Wer alle Runden schafft, hat gewonnen. Hüfte darf nicht absacken, Körper bleibt gerade!</string>
+
+    <!-- Spiel 71 -->
+    <string name="game_71_name">Liegestütz-Varianten</string>
+    <string name="game_71_desc">Klassisch, Diamant, breit – drei Liegestütz-Varianten à 5 Wiederholungen. Wer schafft alle?</string>
+    <string name="game_71_rules">Runde 1: 5 klassische Liegestütze, Runde 2: 5 Diamant-Liegestütze (Hände bilden Diamant), Runde 3: 5 breite Liegestütze (Hände weit auseinander). Zwischen Runden 20 Sek. Pause. Wer alle 15 Wiederholungen mit korrekter Technik schafft, hat gewonnen!</string>
+
+    <!-- Spiel 72 -->
+    <string name="game_72_name">Tote Käfer</string>
+    <string name="game_72_desc">Rücken auf dem Boden, Arme und Beine langsam absenken – Körperspannung halten!</string>
+    <string name="game_72_rules">Alle legen sich auf den Rücken, Arme senkrecht nach oben, Beine 90 Grad angewinkelt. Langsam ein Arm und das gegenüberliegende Bein Richtung Boden senken, ohne den Boden zu berühren. Rücken bleibt flach! Wer 10 Wiederholungen sauber schafft, ist Tote-Käfer-Champion!</string>
+
+    <!-- Spiel 73 -->
+    <string name="game_73_name">Wall-Walk</string>
+    <string name="game_73_desc">Aus der Liegestütz-Position mit den Füßen an der Wand hochlaufen – so hoch wie möglich!</string>
+    <string name="game_73_rules">Startet in der Liegestütz-Position mit Füßen an der Wand. Lauft die Füße die Wand hoch, gleichzeitig mit den Händen in Richtung Wand. Wie nah könnt ihr an die Wand herankommen? Wer am nächsten an die senkrechte Position kommt, gewinnt. Sicherheit beachten!</string>
+
+    <!-- Spiel 74 -->
+    <string name="game_74_name">Onsight-Challenge</string>
+    <string name="game_74_desc">Klettere eine unbekannte Route, ohne sie vorher zu lesen. Schaffst du sie im ersten Versuch?</string>
+    <string name="game_74_rules">Der Spielleiter bereitet eine Route vor, die niemand kennt. Kein Lesen, kein Zuschauen! Jeder Kletterer versucht die Route kalt – im ersten Versuch. Wer sie schafft, hat sie \"Onsight\" gemacht. Punkte: Onsight = 3, zweiter Versuch = 2, dritter = 1. Wer am meisten Punkte sammelt, gewinnt!</string>
+
+    <!-- Spiel 75 -->
+    <string name="game_75_name">Flash-Versuch</string>
+    <string name="game_75_desc">Schau einmal zu, wie jemand klettert – dann schaffe die Route im ersten eigenen Versuch!</string>
+    <string name="game_75_rules">Person A klettert eine Route (darf scheitern). Person B schaut aufmerksam zu und darf Fragen stellen. Dann versucht Person B die Route selbst – im ersten Versuch. Gelingt es, ist es ein \"Flash\". Wer in der Gruppe die meisten Flashs schafft, gewinnt die Challenge!</string>
+
+    <!-- Spiel 76 -->
+    <string name="game_76_name">Limit-Boulder</string>
+    <string name="game_76_desc">Finde deinen persönlichen Limit-Boulder und dokumentiere ihn. Kannst du ihn nächste Woche schaffen?</string>
+    <string name="game_76_rules">Jeder sucht einen Boulder, den er gerade eben noch nicht schafft. Diese Route wird dokumentiert (Foto, Beschreibung). In der nächsten Session wird sie erneut probiert. Wer seinen Limit-Boulder schafft, setzt sich einen neuen. Fortschritt sichtbar machen!</string>
+
+    <!-- Spiel 77 -->
+    <string name="game_77_name">Koordinaten-Route</string>
+    <string name="game_77_desc">Klettere eine Route, die nur durch Griff-Koordinaten beschrieben wird. Kein Zeigen erlaubt!</string>
+    <string name="game_77_rules">Der Spielleiter markiert Griffe mit Koordinaten (Spalte A–F, Reihe 1–8). Eine Route wird als Koordinaten-Liste beschrieben: \"A3 – C2 – E4 – B6\". Der Kletterer muss die Route anhand der Koordinaten finden und klettern. Wer die Route korrekt klettert, gewinnt!</string>
+
+    <!-- Spiel 78 -->
+    <string name="game_78_name">Kraft-Traverse</string>
+    <string name="game_78_desc">Traverse so weit wie möglich ohne Pause – Kraft-Ausdauer pur!</string>
+    <string name="game_78_rules">Startet am linken Ende der Traversalwand. Klettert so weit wie möglich nach rechts ohne Pause oder Abrutschen. Wer am weitesten kommt, gewinnt. Messt die Distanz in Griffen. Nächste Woche versucht jeder, seinen persönlichen Rekord zu brechen.</string>
+
+    <!-- Spiel 79 -->
+    <string name="game_79_name">Systemboard-Duell</string>
+    <string name="game_79_desc">Beide klettern dieselbe Route – wer macht mehr Züge bevor er abfällt?</string>
+    <string name="game_79_rules">Zwei Kletterer klettern gleichzeitig (nebeneinander) dieselbe Route. Sie starten gleichzeitig und die Züge werden mitgezählt. Wer zuerst abfällt, verliert. Bei gleichem Absturz gewinnt, wer mehr Züge gemacht hat. 3 Runden, dann werden Punkte addiert.</string>
+
+    <!-- Spiel 80 -->
+    <string name="game_80_name">Dynamo-Training</string>
+    <string name="game_80_desc">Trainiere dynamische Moves: von kleinen Zwischenstopps bis zu großen, explosiven Dynos!</string>
+    <string name="game_80_rules">Progression: 1. Kleiner Dyno (eine Griffweite), 2. Mittlerer Dyno (zwei Griffweiten), 3. Großer Dyno (drei Griffweiten), 4. Koordinierter Dyno (beide Hände gleichzeitig wechseln). Jeder macht 3 Versuche pro Stufe. Wer bis Stufe 4 kommt, hat das Dynamo-Training abgeschlossen!</string>
+
+    <!-- Spiel 81 -->
+    <string name="game_81_name">Technische Analyse</string>
+    <string name="game_81_desc">Klettere eine Route und analysiere danach jeden einzelnen Zug. Was war gut, was schlecht?</string>
+    <string name="game_81_rules">Person A klettert eine mittelschwere Route. Person B schaut zu und macht sich Notizen: Welche Griffe wurden gut genutzt? Wo gab es Probleme? Danach besprechen beide jeden Zug. Person A klettert nochmal mit den Verbesserungsvorschlägen. Dann wechseln!</string>
+
+    <!-- Spiel 82 -->
+    <string name="game_82_name">Route-Setzen</string>
+    <string name="game_82_desc">Setze selbst eine Route für deine Mitkletterer und erkläre die Idee dahinter.</string>
+    <string name="game_82_rules">Jedes Kind darf eine eigene Route setzen (mit Klebeband oder Kreide markieren). Die Route muss für die Mitkletterer fair und interessant sein. Danach erklärt der \"Routensetzer\" die Schlüsselzüge. Alle klettern die Route. Wer bewertet die Routen der anderen am kreativsten?</string>
+
+    <!-- Spiel 83 -->
+    <string name="game_83_name">Lead-Simulation</string>
+    <string name="game_83_desc">Simuliere Vorstieg-Bewegungen: Seil einklipsen, Blick nach oben, kontrolliert ablassen.</string>
+    <string name="game_83_rules">Mit einem Kletterseil (kein echtes Lead!) klettert man eine Route und simuliert das Einklipsen: Seil aufnehmen, zur Seite halten, \"klipsen\". Oben angekommen: Hände lösen, Wand loslassen und kontrolliert abgelassen werden. Übung für späteres echtes Vorstiegsklettern!</string>
+
+    <!-- Spiel 84 -->
+    <string name="game_84_name">Athleten-Circuit</string>
+    <string name="game_84_desc">5 Stationen à 45 Sekunden: Seilspringen, Burpees, Klettern, Liegestütze, Sprinten.</string>
+    <string name="game_84_rules">Station 1: Seilspringen (45 Sek.), Station 2: Burpees (45 Sek.), Station 3: Traverse-Klettern (45 Sek.), Station 4: Liegestütze (45 Sek.), Station 5: 20m-Sprint hin und zurück (45 Sek.). 15 Sek. Pause zwischen Stationen. 2 Runden. Wer alle 2 Runden schafft, ist ein Athlet!</string>
+
+    <!-- Spiel 85 -->
+    <string name="game_85_name">Partner-Stretch</string>
+    <string name="game_85_desc">Tiefer Stretching in Paaren – mit gegenseitiger Hilfe sanft in die Dehnung kommen.</string>
+    <string name="game_85_rules">5 Dehnübungen zu zweit: 1. Rücken-an-Rücken-Sitz, 2. Schulter-Dehnung mit Hilfe, 3. Oberschenkel-Dehnung mit Support, 4. Seitliche Dehnung, 5. Hüftöffner. Jede Dehnung 30 Sekunden halten. Partner gibt sanften Druck, nie ruckartig. Kommunikation ist wichtig!</string>
+
+    <!-- Spiel 86 -->
+    <string name="game_86_name">Koordinationsleiter</string>
+    <string name="game_86_desc">Verschiedene Muster durch eine Koordinationsleiter auf dem Boden – schnell und präzise!</string>
+    <string name="game_86_rules">Legt eine Koordinationsleiter (oder Tape) auf den Boden. Verschiedene Muster: 1. Ein Fuß pro Feld, 2. Beide Füße pro Feld, 3. Seitlich, 4. Kreuzschritt. Jeder absolviert alle 4 Muster. Wer am schnellsten und fehlerfreiesten ist, gewinnt die Runde. Zeitnehmer nötig!</string>
+
+    <!-- Spiel 87 -->
+    <string name="game_87_name">Balance-Board</string>
+    <string name="game_87_desc">Stehe auf einem Balance-Board und halte verschiedene Posen. Wie lange kannst du balancieren?</string>
+    <string name="game_87_rules">Auf dem Balance-Board (oder einer instabilen Unterlage): Runde 1: einfach stehen (30 Sek.), Runde 2: ein Bein heben (15 Sek. je Seite), Runde 3: Augen schließen (10 Sek.), Runde 4: Ball fangen (10 Würfe). Punkte für jede erfolgreich abgeschlossene Runde!</string>
+
+    <!-- Spiel 88 -->
+    <string name="game_88_name">Medizinball-Athletik</string>
+    <string name="game_88_desc">Medizinball-Würfe, -Squats und -Drehungen für Kraft und Koordination.</string>
+    <string name="game_88_rules">Mit leichtem Medizinball (2–4 kg): 1. Brust-Pässe zu zweit (10×), 2. Overhead-Würfe nach oben (10×), 3. Russische Drehungen sitzend (20×), 4. Squat mit Medizinball (15×), 5. Slamball (auf Matte werfen, 10×). 3 Durchgänge. Gewicht je nach Können wählen!</string>
+
+    <!-- Spiel 89 -->
+    <string name="game_89_name">Klimmzug-Maximum</string>
+    <string name="game_89_desc">Wie viele Klimmzüge schaffst du in einem einzigen Satz? Dein persönlicher Rekord!</string>
+    <string name="game_89_rules">Jeder hat einen Versuch. Voller Klimmzug: Arme gestreckt unten, Kinn über die Stange oben. Keine Schwungbewegungen, kein Übergurten. Wer am meisten Wiederholungen macht, gewinnt. Ergebnis notieren – nächste Session vergleichen. Ehrlichkeit bei der Ausführung ist Pflicht!</string>
+
+    <!-- Spiel 90 -->
+    <string name="game_90_name">Fingerboard-Training</string>
+    <string name="game_90_desc">Hänge an verschiedenen Griffleisten-Tiefen für je 10 Sekunden. Griffkraft aufbauen!</string>
+    <string name="game_90_rules">Progression an der Fingerboard: 1. Ganzer Griff (alle 4 Finger, 10 Sek.), 2. Zweidrittel-Leiste (10 Sek.), 3. Halbtiefe Leiste (10 Sek.), 4. Kleinstleiste (10 Sek., wenn möglich). 3 Minuten Pause zwischen den Leisten. Niemals bis zum Schmerz! Technik vor Intensität.</string>
+
+    <!-- Spiel 91 -->
+    <string name="game_91_name">Einarm-Hängen</string>
+    <string name="game_91_desc">Hänge mit einer Hand an der Stange oder einem Griff – wie lange hält jede Seite?</string>
+    <string name="game_91_rules">Immer mit Sicherung! An einem dicken Griff oder einer Stange: mit einer Hand so lange wie möglich hängen. Zeit messen. Dann die andere Hand. Differenz notieren. Ziel: beide Seiten gleich stark entwickeln. Nicht bis zur Erschöpfung, maximal 80% der maximalen Haltezeit.</string>
+
+    <!-- Spiel 92 -->
+    <string name="game_92_name">Drücken-Ziehen</string>
+    <string name="game_92_desc">Supersatz: Liegestütze (Drücken) + Klimmzüge (Ziehen) – das perfekte Duo für Kletterer!</string>
+    <string name="game_92_rules">Supersatz ohne Pause: 5 Liegestütze direkt gefolgt von 5 Klimmzügen. Das ist 1 Runde. 3 Minuten Pause. Dann Runde 2. 3 Runden total. Wer alle 3 Runden mit korrekter Technik schafft, ist auf dem richtigen Weg. Mit weniger Wiederholungen starten, wenn nötig!</string>
+
+    <!-- Spiel 93 -->
+    <string name="game_93_name">Rumpf-Power</string>
+    <string name="game_93_desc">L-Sit, Front-Lever-Versuch und Hollow-Body-Hold – Rumpfkraft für Spitzenkletterer!</string>
+    <string name="game_93_rules">1. L-Sit (Beine gestreckt, von Boden abheben, 10 Sek.), 2. Hollow-Body-Hold (auf dem Rücken, Körper wie eine Banane, 30 Sek.), 3. Front-Lever-Versuch (an Stange hängen, Beine zur Waagerechten, so weit wie möglich). Je 3 Versuche. Fortschritt wöchentlich dokumentieren!</string>
+
+    <!-- Spiel 94 -->
+    <string name="game_94_name">Explosivkraft</string>
+    <string name="game_94_desc">Clap-Liegestütze und explosive Klimmzüge trainieren – Schnellkraft für dynamische Züge!</string>
+    <string name="game_94_rules">Clap-Liegestütze: 3 Sätze à 5 Wiederholungen. Explosive Klimmzüge (so schnell wie möglich nach oben, kontrolliert nach unten): 3 Sätze à 3 Wiederholungen. 2 Minuten Pause zwischen Sätzen. Nur wenn Grundkraft vorhanden! Technik zuerst, Explosivität kommt von allein.</string>
+
+    <!-- Spiel 95 -->
+    <string name="game_95_name">Schulterprotokoll</string>
+    <string name="game_95_desc">Schultergesundheit: Rotation, Elevation, Depression und Stabilisation für verletzungsfreies Klettern.</string>
+    <string name="game_95_rules">Tägliches Protokoll (10 Min.): 1. Schulterrotation mit Band (15× je Seite), 2. Schulterblatt-Elevation und -Depression (15×), 3. Y-T-W-L Übungen auf dem Boden (10× je), 4. Theraband-Außenrotation (15× je Seite). Leichter Widerstand, hohe Qualität der Bewegung!</string>
+
+    <!-- Spiel 96 -->
+    <string name="game_96_name">Griffkraft-Training</string>
+    <string name="game_96_desc">Trainiere alle Griffarten: geschlossener Griff, offene Hand, Seitgriff, Pinch.</string>
+    <string name="game_96_rules">4 Stationen: 1. Crimp (geschlossener Griff, 10 Sek., 3×), 2. Open-Hand (10 Sek., 3×), 3. Seitgriff/Sidepull (10 Sek. je Seite, 3×), 4. Pinch (Daumen + Finger, 10 Sek., 3×). 2 Min. Pause je Station. Nie bis zum Schmerz! Nach dem Training dehnen.</string>
+
+    <!-- Spiel 97 -->
+    <string name="game_97_name">Antagonisten-Training</string>
+    <string name="game_97_desc">Fingerstrecker und Unterarm-Gegenmuskeln trainieren – Prävention gegen Überlastung!</string>
+    <string name="game_97_rules">3 Übungen: 1. Fingerstrecker mit Band (Finger gegen Widerstand öffnen, 20×, 3 Sätze), 2. Handgelenk-Extension (leichte Hantel, 15×, 3 Sätze), 3. Unterarm-Pronation/-Supination mit Hammer (15×, 3 Sätze). Nach jedem Klettertraining durchführen. Vorbeugung ist besser als Heilung!</string>
+
+    <!-- Spiel 98 -->
+    <string name="game_98_name">Maximalkraft-Test</string>
+    <string name="game_98_desc">Standardisierter Test: maximale Klimmzüge + maximale Liegestütze + maximale Hängezeit.</string>
+    <string name="game_98_rules">Test in dieser Reihenfolge (je 5 Min. Pause): 1. Maximale Klimmzüge in einem Satz, 2. Maximale Liegestütze in einem Satz, 3. Maximale Hängezeit (gestreckte Arme). Alle Ergebnisse dokumentieren. Test monatlich wiederholen, um Fortschritt zu messen. Technik muss korrekt sein!</string>
+
+    <!-- Spiel 99 -->
+    <string name="game_99_name">Kraft-Ausdauer</string>
+    <string name="game_99_desc">3 Runden: je 10 Klimmzüge + 20 Liegestütze + 30 Situps. Kein Pause zwischen Übungen!</string>
+    <string name="game_99_rules">Eine Runde: 10 Klimmzüge, direkt danach 20 Liegestütze, direkt danach 30 Situps. Zwischen Übungen keine Pause. Zwischen Runden 3 Minuten Pause. 3 Runden total. Wer alle 3 Runden mit korrekter Technik schafft, hat außergewöhnliche Kletterer-Kraft-Ausdauer!</string>
+
+    <!-- Spiel 100 -->
+    <string name="game_100_name">Camp4-Vollprogramm</string>
+    <string name="game_100_desc">Das komplette Trainingsprotokoll eines Profi-Kletterers – für eine ganze Session!</string>
+    <string name="game_100_rules">Vollständige Session (90 Min.): 1. Aufwärmen 15 Min. (Jongleur-Aufwärmen + Zauberspiegel), 2. Fingerboard 20 Min. (Griffkraft-Training), 3. Boulder-Training 30 Min. (Onsight + Limit + Technische Analyse), 4. Kraft 15 Min. (Drücken-Ziehen + Rumpf-Power), 5. Abwärmen 10 Min. (Partner-Stretch + Schulterprotokoll).</string>
+</resources>
