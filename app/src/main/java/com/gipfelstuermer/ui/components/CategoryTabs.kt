@@ -104,6 +104,7 @@ fun CategoryTabs(
             )
             FilterChip(
                 label = stringResource(R.string.age_klein),
+                subtitle = stringResource(R.string.age_klein_label),
                 icon = null,
                 isSelected = ageFilter == AgeFilter.KLEIN,
                 activeColor = AgeGroupKlein,
@@ -112,6 +113,7 @@ fun CategoryTabs(
             )
             FilterChip(
                 label = stringResource(R.string.age_mittel),
+                subtitle = stringResource(R.string.age_mittel_label),
                 icon = null,
                 isSelected = ageFilter == AgeFilter.MITTEL,
                 activeColor = AgeGroupMittel,
@@ -120,6 +122,7 @@ fun CategoryTabs(
             )
             FilterChip(
                 label = stringResource(R.string.age_gross),
+                subtitle = stringResource(R.string.age_gross_label),
                 icon = null,
                 isSelected = ageFilter == AgeFilter.GROSS,
                 activeColor = AgeGroupGross,
@@ -181,7 +184,8 @@ private fun FilterChip(
     isSelected: Boolean,
     activeColor: Color,
     onClick: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    subtitle: String? = null
 ) {
     val backgroundColor by animateColorAsState(
         targetValue = if (isSelected) activeColor else Color.Transparent,
@@ -193,6 +197,11 @@ private fun FilterChip(
         animationSpec = tween(durationMillis = 300),
         label = "chip_text"
     )
+    val subtitleColor by animateColorAsState(
+        targetValue = if (isSelected) Color.White.copy(alpha = 0.8f) else TextPrimary.copy(alpha = 0.55f),
+        animationSpec = tween(durationMillis = 300),
+        label = "chip_subtitle"
+    )
 
     Box(
         modifier = modifier
@@ -202,22 +211,32 @@ private fun FilterChip(
             .padding(vertical = 8.dp, horizontal = 8.dp),
         contentAlignment = Alignment.Center
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            if (icon != null) {
-                Icon(
-                    imageVector = icon,
-                    contentDescription = null,
-                    tint = textColor,
-                    modifier = Modifier.height(18.dp)
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                if (icon != null) {
+                    Icon(
+                        imageVector = icon,
+                        contentDescription = null,
+                        tint = textColor,
+                        modifier = Modifier.height(18.dp)
+                    )
+                    Spacer(modifier = Modifier.width(4.dp))
+                }
+                Text(
+                    text = label,
+                    color = textColor,
+                    fontSize = 13.sp,
+                    fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal
                 )
-                Spacer(modifier = Modifier.width(4.dp))
             }
-            Text(
-                text = label,
-                color = textColor,
-                fontSize = 13.sp,
-                fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal
-            )
+            if (subtitle != null) {
+                Text(
+                    text = subtitle,
+                    color = subtitleColor,
+                    fontSize = 10.sp,
+                    fontWeight = FontWeight.Normal
+                )
+            }
         }
     }
 }
