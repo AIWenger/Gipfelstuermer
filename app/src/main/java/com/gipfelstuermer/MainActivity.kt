@@ -1,7 +1,9 @@
 package com.gipfelstuermer
 
+import android.content.Context
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import com.gipfelstuermer.util.LanguageManager
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
@@ -15,6 +17,10 @@ import com.gipfelstuermer.ui.theme.GipfelStuermerTheme
 import com.gipfelstuermer.ui.viewmodel.GameViewModel
 
 class MainActivity : ComponentActivity() {
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(LanguageManager.applyLocale(newBase))
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

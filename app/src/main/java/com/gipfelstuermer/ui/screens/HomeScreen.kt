@@ -1,5 +1,6 @@
 package com.gipfelstuermer.ui.screens
 
+import android.app.Activity
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -14,8 +15,11 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.gipfelstuermer.GipfelStuermerApp
+import com.gipfelstuermer.util.LanguageManager
 import com.gipfelstuermer.data.local.Difficulty
 import com.gipfelstuermer.data.local.GameType
 import com.gipfelstuermer.ui.components.CategoryTabs
@@ -40,6 +44,9 @@ fun HomeScreen(
     val timerMillis by viewModel.timerMillis.collectAsStateWithLifecycle()
     val timerRunning by viewModel.timerRunning.collectAsStateWithLifecycle()
 
+    val context = LocalContext.current
+    val currentLanguage = LanguageManager.getLanguage(context)
+
     LazyColumn(
         modifier = modifier.fillMaxSize(),
         contentPadding = PaddingValues(16.dp),
@@ -48,7 +55,18 @@ fun HomeScreen(
         item {
             HeroCard(
                 searchQuery = searchQuery,
-                onSearchQueryChange = { viewModel.setSearchQuery(it) }
+                onSearchQueryChange = { viewModel.setSearchQuery(it) },
+                currentLanguage = currentLanguage,
+                onLanguageToggle = {
+                    val newLang = if (currentLanguage == LanguageManager.GERMAN) {
+                        LanguageManager.ENGLISH
+                    } else {
+                        LanguageManager.GERMAN
+                    }
+                    val app = context.applicationContext as GipfelStuermerApp
+                    app.updateLocale(newLang)
+                    (context as? Activity)?.recreate()
+                }
             )
         }
 

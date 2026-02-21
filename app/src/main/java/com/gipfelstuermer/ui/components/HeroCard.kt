@@ -1,8 +1,11 @@
 package com.gipfelstuermer.ui.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -30,11 +33,14 @@ import com.gipfelstuermer.R
 import com.gipfelstuermer.ui.theme.HeroGradientEnd
 import com.gipfelstuermer.ui.theme.HeroGradientStart
 import com.gipfelstuermer.ui.theme.TextOnPrimary
+import com.gipfelstuermer.util.LanguageManager
 
 @Composable
 fun HeroCard(
     searchQuery: String,
     onSearchQueryChange: (String) -> Unit,
+    currentLanguage: String,
+    onLanguageToggle: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     Box(
@@ -48,14 +54,45 @@ fun HeroCard(
             )
             .padding(24.dp)
     ) {
-        Icon(
-            imageVector = Icons.Outlined.Landscape,
-            contentDescription = null,
-            tint = TextOnPrimary.copy(alpha = 0.4f),
-            modifier = Modifier
-                .size(64.dp)
-                .align(Alignment.TopEnd)
-        )
+        Column(
+            modifier = Modifier.align(Alignment.TopEnd),
+            horizontalAlignment = Alignment.End,
+            verticalArrangement = Arrangement.spacedBy(4.dp)
+        ) {
+            Row(
+                modifier = Modifier
+                    .clip(RoundedCornerShape(20.dp))
+                    .background(Color.White.copy(alpha = 0.2f))
+                    .clickable { onLanguageToggle() }
+                    .padding(horizontal = 10.dp, vertical = 4.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                Text(
+                    text = "DE",
+                    color = if (currentLanguage == LanguageManager.GERMAN) Color.White else Color.White.copy(alpha = 0.45f),
+                    fontSize = 11.sp,
+                    fontWeight = if (currentLanguage == LanguageManager.GERMAN) FontWeight.Bold else FontWeight.Normal
+                )
+                Text(
+                    text = "|",
+                    color = Color.White.copy(alpha = 0.4f),
+                    fontSize = 11.sp
+                )
+                Text(
+                    text = "EN",
+                    color = if (currentLanguage == LanguageManager.ENGLISH) Color.White else Color.White.copy(alpha = 0.45f),
+                    fontSize = 11.sp,
+                    fontWeight = if (currentLanguage == LanguageManager.ENGLISH) FontWeight.Bold else FontWeight.Normal
+                )
+            }
+            Icon(
+                imageVector = Icons.Outlined.Landscape,
+                contentDescription = null,
+                tint = TextOnPrimary.copy(alpha = 0.4f),
+                modifier = Modifier.size(64.dp)
+            )
+        }
 
         Column {
             Text(
